@@ -1,7 +1,7 @@
 from django.conf.urls import url, include
-from rest_framework import routers
-from app.views import UserViewSet,GroupViewSet
+from app.views import index, measure
 
 urlpatterns = [
-    url(r'^$', views.index, name='index'),
+    url(r'^$', index, name='index'),
+    url(r'^measure/$', measure, name='urlname')
 ]
