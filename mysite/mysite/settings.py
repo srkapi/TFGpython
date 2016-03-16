@@ -1,5 +1,15 @@
 # Django settings for mysite project.
 
+
+
+import os
+BASE_DIR = os.path.dirname(os.path.dirname(__file__))
+
+####CHECK THIS OUT####
+TEMPLATE_DIRS = (
+    os.path.join(BASE_DIR, 'templates'),
+)
+
 DEBUG = True
 TEMPLATE_DEBUG = DEBUG
 
@@ -100,12 +110,6 @@ ROOT_URLCONF = 'mysite.urls'
 
 # Python dotted path to the WSGI application used by Django's runserver.
 WSGI_APPLICATION = 'mysite.wsgi.application'
-
-TEMPLATE_DIRS = (
-    # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
-    # Always use forward slashes, even on Windows.
-    # Don't forget to use absolute paths, not relative paths.
-)
 
 INSTALLED_APPS = (
     'django.contrib.admin',
