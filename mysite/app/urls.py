@@ -1,7 +1,8 @@
 from django.conf.urls import url, include
-from app.views import index, measure
+from app.views import index, measure,measureAdd
 
 urlpatterns = [
     url(r'^$', index, name='index'),
-    url(r'^measure/$', measure, name='urlname')
+    url(r'^measureadd/$', measureAdd, name='urlname'),
+    url(r'^measure/$', measure, name='data')
 ]

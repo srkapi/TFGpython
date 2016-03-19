@@ -15,4 +15,4 @@ class Measure(models.Model):
     sensor = models.CharField()
     type = models.IntegerField()
     value = models.FloatField()
-    fecha= models.DateField();
+    fecha = models.CharField()
