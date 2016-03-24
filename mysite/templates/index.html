@@ -55,6 +55,21 @@
     <script src="https://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
 
+       <!-- jQuery -->
+    <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- Metis Menu Plugin JavaScript -->
+    <script src="/static/bower_components/metisMenu/dist/metisMenu.min.js"></script>
+
+    <!-- Morris Charts JavaScript -->
+    <script src="/static/bower_components/raphael/raphael-min.js"></script>
+    <script src="/static/bower_components/morrisjs/morris.min.js"></script>
+    <script src="/static/js/morris-data.js"></script>
+
+
 
 
 </head>
@@ -109,11 +124,24 @@
                          <li>
                             <a href=""><i class="glyphicon glyphicon-tint fa-fw"></i> Graphics</a>
                         </li>
-                         <li>
-                            <a href="{% url 'user' %}"><i class="glyphicon glyphicon-user fa-fw"></i> Users</a>
-                        </li>
+
                         <li>
                             <a href=""><i class="glyphicon glyphicon-user  glyphicon-file"></i> Sketch</a>
+                        </li>
+                        <li>
+                         <a href="#"><i class="glyphicon glyphicon-user fa-fw"></i>Users<span class="fa arrow"></span></a>
+                            <ul class="nav nav-second-level">
+                                <li>
+                                    <a href="{% url 'user' %}">List user</a>
+                                </li>
+                                 <li>
+                                    <a href="{% url 'user' %}">Create User</a>
+                                </li>
+                                 <li>
+                                    <a href="{% url 'user' %}">List user</a>
+                                </li>
+
+                            </ul>
                         </li>
 
                 </div>
