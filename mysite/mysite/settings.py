@@ -72,7 +72,8 @@ MEDIA_URL = ''
 STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static') # Used only during production deployment.
 STATIC_URL = '/static/' # I'm a minimalist...
 
-
+LOGIN_REDIRECT_URL = '/'
+LOGIN_URL = 'django.contrib.auth.views.login'
 PROJECT_ROOT = os.path.normpath(os.path.dirname(__file__)+'/..')  # The '/..' is needed to work with Django 1.4+, remove for ol
 # URL prefix for static files.
 # Example: "http://example.com/static/", "http://static.example.com/"
@@ -103,6 +104,7 @@ MIDDLEWARE_CLASSES = (
     'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
+
     # Uncomment the next line for simple clickjacking protection:
     # 'django.middleware.clickjacking.XFrameOptionsMiddleware',
 )

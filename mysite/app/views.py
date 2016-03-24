@@ -1,12 +1,38 @@
-from django.http import HttpResponse
+from django.http import *
 from django.core import serializers
 from models import Post,Measure
 from flask  import Flask, jsonify
 from datetime import datetime
-from django.shortcuts import render
+from django.shortcuts import *
 from pymongo import MongoClient
+from django.contrib.auth.decorators import login_required
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.models import User
+
+@login_required(login_url='login/')
 def index(request):
     return render(request, 'index.html')
+
+
+
+def login_user(request):
+    logout(request)
+    username = password = ''
+    if request.POST:
+        username = request.POST['username']
+        password = request.POST['password']
+
+        user = authenticate(username=username, password=password)
+        if user is not None:
+            if user.is_active:
+                login(request, user)
+                return HttpResponseRedirect('/app/')
+    return render_to_response('login.html', context_instance=RequestContext(request))
+
+def logout_user(request):
+    logout(request)
+    return render_to_response('login.html', context_instance=RequestContext(request))
+
 
 
 
@@ -17,7 +43,7 @@ def measureAdd(request):
     post.save()
     return HttpResponse("medida insertada con exist")# Create your views here.
 
-
+@login_required(login_url='/login/')
 def measure(request):
     connection = MongoClient()
     db = connection['project']
@@ -27,3 +53,10 @@ def measure(request):
     context = {'data':  data ,'count': length}
     connection.close()
     return render(request, 'measure.html',context)
+
+@login_required(login_url='/login/')
+def list_user(request):
+    list=User.objects.all()
+    context = {'data': list}
+    return render(request, 'user.html',context)
+
