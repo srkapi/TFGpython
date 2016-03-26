@@ -16,3 +16,14 @@ class Measure(models.Model):
     type = models.IntegerField()
     value = models.FloatField()
     fecha = models.CharField()
+
+
+
+
+class User(models.Model):
+    name = models.CharField()
+    last_name = models.CharField()
+    user = models.CharField()
+    password = models.CharField()
+    email = models.CharField()
+    active = models.IntegerField()

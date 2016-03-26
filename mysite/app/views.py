@@ -8,6 +8,7 @@ from pymongo import MongoClient
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
+from form import UserForm
 
 @login_required(login_url='login/')
 def index(request):
@@ -59,4 +60,14 @@ def list_user(request):
     list=User.objects.all()
     context = {'data': list}
     return render(request, 'user.html',context)
+
+
+@login_required(login_url='/login/')
+def user_new(request):
+    form = UserForm()
+    context = {'form': form}
+    return render(request, 'newUser.html',context)
+
+
+
 
