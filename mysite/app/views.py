@@ -9,6 +9,8 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.models import User
 from form import UserForm
+import logging
+logger = logging.getLogger(__name__)
 
 @login_required(login_url='login/')
 def index(request):
@@ -44,7 +46,7 @@ def measureAdd(request):
     post.save()
     return HttpResponse("medida insertada con exist")# Create your views here.
 
-@login_required(login_url='/login/')
+@login_required(login_url='login/')
 def measure(request):
     connection = MongoClient()
     db = connection['project']
@@ -55,15 +57,35 @@ def measure(request):
     connection.close()
     return render(request, 'measure.html',context)
 
-@login_required(login_url='/login/')
+@login_required(login_url='login/')
 def list_user(request):
     list=User.objects.all()
     context = {'data': list}
     return render(request, 'user.html',context)
 
 
-@login_required(login_url='/login/')
+@login_required(login_url='login/')
 def user_new(request):
+    if request.method == 'POST':
+        userName = request.POST.get('username')
+        userPass = request.POST.get('pass')
+        userMail = request.POST.get('email')
+        name = request.POST.get('cname')
+        lastName = request.POST.get('lastName')
+        admin = request.POST.get('admin')
+        if admin == '1':
+            adminNumber = True
+        else:
+            adminNumber = False
+        logger.info(adminNumber)
+        User.objects.create_user(username=userName,
+                                 email=userMail,
+                                 password=userPass,
+                                 is_superuser=adminNumber)
+        User.save()
+
+
+
     form = UserForm()
     context = {'form': form}
     return render(request, 'newUser.html',context)
