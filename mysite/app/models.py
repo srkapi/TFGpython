@@ -20,7 +20,7 @@ class Measure(models.Model):
 
 
 
-class User(models.Model):
+class Users(models.Model):
     name = models.CharField()
     last_name = models.CharField()
     user = models.CharField()

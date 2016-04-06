@@ -1,13 +1,12 @@
 from django.http import *
 from django.core import serializers
-from models import Post,Measure
+from models import Post,Measure , Users
 from flask  import Flask, jsonify
 from datetime import datetime
 from django.shortcuts import *
 from pymongo import MongoClient
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth import authenticate, login, logout
-from django.contrib.auth.models import User
 from form import UserForm
 import logging
 logger = logging.getLogger(__name__)
@@ -77,14 +76,9 @@ def user_new(request):
             adminNumber = True
         else:
             adminNumber = False
+        user = Users.objects.create(name=name, last_name=lastName, user=userName, password=userPass, email=userMail)
+        user.save()
         logger.info(adminNumber)
-        User.objects.create_user(username=userName,
-                                 email=userMail,
-                                 password=userPass,
-                                 is_superuser=adminNumber)
-        User.save()
-
-
 
     form = UserForm()
     context = {'form': form}
