@@ -1,15 +1,21 @@
-from django.http import *
-from django.core import serializers
-from models import Post,Measure , Users
-from flask  import Flask, jsonify
+import logging
 from datetime import datetime
+
+from DaoMeause import connection
+from  model.user import user
+from DaoMeause.connection import *
+from django.contrib.auth import authenticate, login, logout
+from django.contrib.auth.decorators import login_required
 from django.shortcuts import *
 from pymongo import MongoClient
-from django.contrib.auth.decorators import login_required
-from django.contrib.auth import authenticate, login, logout
+from DaoMeause import userDao
 from form import UserForm
-import logging
+from models import Measure , Users
+from DaoMeause import userDao,connection
 logger = logging.getLogger(__name__)
+
+
+
 
 @login_required(login_url='login/')
 def index(request):
@@ -38,6 +44,7 @@ def logout_user(request):
 
 
 
+
 def measureAdd(request):
     sensor=request.GET['sensor']
     measure=request.GET['measure']
@@ -47,18 +54,18 @@ def measureAdd(request):
 
 @login_required(login_url='login/')
 def measure(request):
-    connection = MongoClient()
-    db = connection['project']
-    collection = db.app_measure
+    connec = mongoDB()
+    collection = connec.measure()
     data = collection.find()
     length = collection.count()
     context = {'data':  data ,'count': length}
-    connection.close()
+
     return render(request, 'measure.html',context)
 
 @login_required(login_url='login/')
 def list_user(request):
-    list=User.objects.all()
+    dao = userDao()
+    list = dao.getAll()
     context = {'data': list}
     return render(request, 'user.html',context)
 
@@ -76,9 +83,9 @@ def user_new(request):
             adminNumber = True
         else:
             adminNumber = False
-        user = Users.objects.create(name=name, last_name=lastName, user=userName, password=userPass, email=userMail)
-        user.save()
-        logger.info(adminNumber)
+        userAdd = user(name, lastName, userMail, userPass, userName)
+        dao = userDao.daoUser()
+        dao.addUser(userAdd)
 
     form = UserForm()
     context = {'form': form}
