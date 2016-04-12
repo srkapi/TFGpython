@@ -64,7 +64,7 @@ def measure(request):
 
 @login_required(login_url='login/')
 def list_user(request):
-    dao = userDao()
+    dao = userDao.daoUser()
     list = dao.getAll()
     context = {'data': list}
     return render(request, 'user.html',context)

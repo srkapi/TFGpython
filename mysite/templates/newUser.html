@@ -1,0 +1,113 @@
+{% include "index.html" %}
+
+
+
+
+ <div id="page-wrapper"     >
+    <div class="row" id="userRow">
+        <div class="col-sm-9 col-sm-offset-1">
+            <div class="panel panel-success">
+                        <div class="panel-heading">
+                            New User
+                        </div>
+                        <div class="panel-body" >
+                       <form class="cmxform" id="commentForm" method="post" action="{{ url }}">
+                           {% csrf_token %}
+                          <fieldset>
+                            <legend>Insert a new user to database</legend>
+                            <p>
+                              <label for="cname">Name (required, at least 2 characters)</label>
+                              <input id="cname" name="cname" minlength="2" type="text" required>
+                            </p>
+                            <p>
+                              <label for="lastName">Last Name (required, at least 2 characters)</label>
+                              <input id="lastName" name="lastName" minlength="2" type="text" required>
+                            </p>
+                            <p>
+                              <label for="email">E-Mail (required)</label>
+                              <input id="email" type="email" name="email" required>
+
+                            </p>
+                              <p>
+                              <label for="username">User (required)</label>
+                              <input id="username" type="text" name="username" required>
+                            </p>
+                            <p>
+                             <label for="pass">Pass</label>
+                             <input id="pass" name="pass" type="password" value="" />
+                            </p>
+                            <p>
+                              <label for="pass2">Repeat pass</label>
+                             <input id="pass2" name="pass2" type="password" value="" />
+                            </p>
+                             <p>
+                              <label for="admin">Super user</label>
+                                <select id="admin" name="admin" type="text" value="">
+                                  <option value="1">Yes</option>
+                                  <option value="0">No</option>
+                                </select>
+                            </p>
+
+                            <p>
+                              <input class="submit" type="submit" value="Submit">
+                            </p>
+                          </fieldset>
+                           {% csrf_token %}
+                        </form>
+
+
+                        </div>
+
+        </div>
+    </div>
+</div>
+ </div>
+
+
+
+
+
+
+
+
+
+<script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+
+
+<link href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"
+          rel="stylesheet">
+
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/jquery.validate.min.js"></script>
+<script src="http://jqueryvalidation.org/files/dist/additional-methods.min.js"></script>
+<script>
+
+  $("#commentForm").validate({
+  rules: {
+    pass: "required",
+    pass2: {
+      equalTo: "#pass"
+    }
+  }
+});
+ </script>
+
+<style>
+
+    #save{
+        margin-left:9em;
+        margin-top:2em;
+    }
+
+    #userRow{
+        margin-top:50px;
+    }
+
+
+
+
+</style>
+
+
+</body>
+</html>
