@@ -9,6 +9,7 @@ from django.contrib.auth.decorators import login_required
 from django.shortcuts import *
 from pymongo import MongoClient
 from DaoMeause import userDao
+from django.contrib.auth.models import User
 from form import UserForm
 from models import Measure , Users
 from DaoMeause import userDao,connection
@@ -67,7 +68,7 @@ def list_user(request):
     dao = userDao.daoUser()
     list = dao.getAll()
     context = {'data': list}
-    return render(request, 'user.html',context)
+    return render(request, 'user.html', context)
 
 
 @login_required(login_url='login/')
@@ -80,16 +81,44 @@ def user_new(request):
         lastName = request.POST.get('lastName')
         admin = request.POST.get('admin')
         if admin == '1':
-            adminNumber = True
+            adminBool = True
         else:
-            adminNumber = False
-        userAdd = user(name, lastName, userMail, userPass, userName)
+            adminBool = False
+        userAdd = user(name, lastName, userMail, userPass, userName, adminBool)
+        newUser = User.objects.create_user(userName, userPass, userPass)
+        newUser.save()
         dao = userDao.daoUser()
         dao.addUser(userAdd)
 
     form = UserForm()
     context = {'form': form}
     return render(request, 'newUser.html',context)
+
+@login_required(login_url='login/')
+def updateUser(request):
+    dao = userDao.daoUser()
+    if request.method == 'POST':
+        userName = request.POST.get('user')
+        userPass = request.POST.get('pass')
+        userMail = request.POST.get('email')
+        name = request.POST.get('name')
+        lastName = request.POST.get('lastName')
+        userUpdate = user(name, lastName, userMail, userPass, userName)
+        dao.updateUser(userUpdate)
+
+    return redirect('user')
+
+@login_required(login_url='login/')
+def deleteUser(request):
+    user = request.GET.get('user')
+    dao = userDao.daoUser()
+    dao.deleteUser(user)
+    return redirect('user')
+
+
+
+
+
 
 
 

@@ -9,5 +9,8 @@ urlpatterns = [
     url(r'^logout/$', logout_user, name='logout'),
     url(r'^user/$', list_user, name='user'),
     url(r'^user/new/', user_new, name='user_new'),
+    url(r'^udpateUser/', updateUser, name='updateUser'),
+    url(r'^deleteUser/', deleteUser, name='deleteUser'),
+
 
 ]

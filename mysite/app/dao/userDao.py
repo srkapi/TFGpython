@@ -10,8 +10,15 @@ class daoUser(object):
     def __init__(self):
         self.connection = connection()
 
-    def userMeasure(self , measure):
+    def userMeasure(self , user):
         collection = connection.user();
-        value = json.dumps(measure, default=lambda x:x.__dict__)
+        value = json.dumps(user, default=lambda x:x.__dict__)
         collection.insert(value)
+
+
+    def updateUser(self,user):
+         collection = connection.user();
+         value = json.dumps(user, default=lambda x:x.__dict__)
+
+
 

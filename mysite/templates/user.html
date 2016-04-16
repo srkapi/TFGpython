@@ -1,12 +1,12 @@
 {% include "index.html" %}
 
 
-<div id="page-wrapper">
- <div class="row">
+<div id="page-wrapper" ng-app="myapp">
+ <div class="row" ng-controller="mycontroller">
                 <div class="col-lg-12">
                     <div class="panel panel-default">
                         <div class="panel-heading">
-                            DataTables Advanced Tables
+                            List User Active
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
@@ -18,6 +18,8 @@
                                             <th>Last name</th>
                                             <th>User</th>
                                             <th>Email</th>
+                                            <th>Delete</th>
+                                            <th>Update</th>
                                         </tr>
                                     </thead>
                                     <tbody>
@@ -28,6 +30,8 @@
                                             <td>{{ user.lastName }}</td>
                                             <td>{{ user.user }}</td>
                                             <td>{{ user.email }}</td>
+                                            <td><button class="glyphicon glyphicon-trash" onclick="deleteUser({{ user.user}}, {{ user.name }} )"/></td>
+                                            <td><button class="glyphicon glyphicon-pencil" onclick="updateUser('{{ user.user }}', '{{ user.name }}' ,'{{ user.lastName }}' , '{{ user.email}}')" ng-click="edit=!edit" /></td>
                                           </tr>
                                            {% endfor %}
 
@@ -38,11 +42,48 @@
                    </div>
                 </div>
               </div>
+              <div ng-show="edit">
+                   <div class="col-lg-4">
+                    <div class="panel panel-success">
+                        <div class="panel-heading">
+                            Update User
+                        </div>
+                        <div class="panel-body">
+                             <form id="update" name="update" action="{% url 'updateUser' %}" method="post">
+                                 {% csrf_token %}
+                                <p>
+                                Nombre: <input type="text"  name="name" id="name" autofocus required />
+                                <br />
+                                <p>
+                                Apellido: <input type="text"   name="lastName" id="lastName" autofocus required />
+                                <br />
+                                <p>
+                                user <input type="text"   name="user" id="user" autofocus required />
+                                <br />
+                                 <p>
+                                Email <input type="text"   name="email" id="email" autofocus required />
+                                <br />
+
+                                <p>
+                                Password: <input type="pass"   name="pass"  id="pass" autofocus required />
+                                <br />
+                                {% csrf_token %}
+                                <button type="submit" >Update</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+
+
+              </div>
+              <div ng-hide="edit"></div>
  </div>
 </div>
 
 
 <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+
     <script src="/static/bower_components/jquery/dist/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
@@ -65,6 +106,25 @@
                 responsive: true
         });
     });
+
+
+    var app = angular.module("myapp", []);
+    app.controller("mycontroller", function($scope) {
+        $scope.products = ["Milk", "Bread", "Cheese"];
+    });
+
+    function updateUser(user, nombre, apellido, email){
+        document.forms[0].name.placeholder=nombre;
+        document.forms[0].lastName.placeholder=apellido;
+        document.forms[0].user.placeholder=user;
+        document.forms[0].user.disabled=true;
+        document.forms[0].email.placeholder=email;
+
+    }
+
+    function deleteUser(user,name){
+        con
+    }
     </script>
 
 </body>
