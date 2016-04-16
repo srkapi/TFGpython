@@ -27,14 +27,16 @@ class daoUser():
         return user
 
 
-    def updateUser(self,user):
+    def updateUser(self, user):
         collection = self.conn.user()
-        collection.find_and_modify(query={'user': user.user}, update={"$set": {
-                                    'password': user.password,
-                                    'name': user.name,
-                                    'lastName': user.lastName,
-                                    'email': user.email}},
-                                    upsert=False, full_response= True)
+        collection.find_and_modify(query={'user': user.user},  update={
+            '$set': {
+            'password': user.password,
+            'name': user.name,
+            'lastName': user.lastName,
+            'email': user.email,
+            'admin': user.admin
+            }}, upsert=False, full_response= True)
 
 
 

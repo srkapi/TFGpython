@@ -30,8 +30,8 @@
                                             <td>{{ user.lastName }}</td>
                                             <td>{{ user.user }}</td>
                                             <td>{{ user.email }}</td>
-                                            <td><button class="glyphicon glyphicon-trash" onclick="deleteUser({{ user.user}}, {{ user.name }} )"/></td>
-                                            <td><button class="glyphicon glyphicon-pencil" onclick="updateUser('{{ user.user }}', '{{ user.name }}' ,'{{ user.lastName }}' , '{{ user.email}}')" ng-click="edit=!edit" /></td>
+                                            <td><button class="glyphicon glyphicon-trash" ng-click="deleteUser('{{ user.user}}' )"/></td>
+                                            <td><button class="glyphicon glyphicon-pencil" ng-click="updateUser('{{ user.user }}', '{{ user.name }}' ,'{{ user.lastName }}' , '{{ user.email}}')"  /></td>
                                           </tr>
                                            {% endfor %}
 
@@ -103,8 +103,6 @@
     <script src="/static/bower_components/datatables/media/js/jquery.dataTables.min.js"></script>
     <script src="/static/bower_components/datatables-plugins/integration/bootstrap/3/dataTables.bootstrap.min.js"></script>
 
-    <!-- Custom Theme JavaScript -->
-    <script src="/statics/dist/js/sb-admin-2.js"></script>
 
     <!-- Page-Level Demo Scripts - Tables - Use for reference -->
     <script>
@@ -116,23 +114,35 @@
 
 
     var app = angular.module("myapp", []);
-    app.controller("mycontroller", function($scope) {
-        $scope.products = ["Milk", "Bread", "Cheese"];
+    app.controller("mycontroller", function($scope,$http) {
+
+        $scope.updateUser = function(user, nombre, apellido, email) {
+            document.forms[0].name.placeholder=nombre;
+            document.forms[0].lastName.placeholder=apellido;
+            document.forms[0].user.value=user;
+            document.forms[0].email.placeholder=email;
+            $scope.edit=!$scope.edit;
+        }
+
+        $scope.deleteUser = function(userName){
+
+            var data = $.param({
+               'user': userName
+            });
+
+            var config = {
+                headers : {
+                    'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8;'
+                }
+            }
+
+            $http.post("{% url 'deleteUser' %}", data, config);
+        }
+
+
+
     });
 
-    function updateUser(user, nombre, apellido, email){
-        document.forms[0].name.placeholder=nombre;
-        document.forms[0].lastName.placeholder=apellido;
-
-        document.forms[0].user.value=user;
-        document.forms[0].user.disabled=true;
-        document.forms[0].email.placeholder=email;
-
-    }
-
-    function deleteUser(user,name){
-        con
-    }
     </script>
 
 </body>

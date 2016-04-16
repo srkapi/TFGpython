@@ -108,14 +108,13 @@ def updateUser(request):
             adminBool = True
         else:
             adminBool = False
-        userUpdate = user(name, lastName, userMail, userPass, userName,adminBool)
+        userUpdate = user(name, lastName, userMail, userPass, userName, adminBool)
         dao.updateUser(userUpdate)
 
     return redirect('user')
 
-@login_required(login_url='login/')
 def deleteUser(request):
-    user = request.GET.get('user')
+    user = request.POST.get('user')
     dao = userDao.daoUser()
     dao.deleteUser(user)
     return redirect('user')
