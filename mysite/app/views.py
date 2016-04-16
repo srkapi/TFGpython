@@ -103,7 +103,12 @@ def updateUser(request):
         userMail = request.POST.get('email')
         name = request.POST.get('name')
         lastName = request.POST.get('lastName')
-        userUpdate = user(name, lastName, userMail, userPass, userName)
+        admin = request.POST.get('admin')
+        if admin == '1':
+            adminBool = True
+        else:
+            adminBool = False
+        userUpdate = user(name, lastName, userMail, userPass, userName,adminBool)
         dao.updateUser(userUpdate)
 
     return redirect('user')

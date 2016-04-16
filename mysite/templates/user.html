@@ -67,6 +67,13 @@
                                 <p>
                                 Password: <input type="pass"   name="pass"  id="pass" autofocus required />
                                 <br />
+                                 <p>
+                                  <label for="admin">Super user</label>
+                                    <select id="admin" name="admin" type="text" value="">
+                                      <option value="1">Yes</option>
+                                      <option value="0">No</option>
+                                    </select>
+                                </p>
                                 {% csrf_token %}
                                 <button type="submit" >Update</button>
                             </form>
@@ -116,7 +123,8 @@
     function updateUser(user, nombre, apellido, email){
         document.forms[0].name.placeholder=nombre;
         document.forms[0].lastName.placeholder=apellido;
-        document.forms[0].user.placeholder=user;
+
+        document.forms[0].user.value=user;
         document.forms[0].user.disabled=true;
         document.forms[0].email.placeholder=email;
 
