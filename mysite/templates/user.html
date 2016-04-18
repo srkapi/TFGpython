@@ -18,6 +18,7 @@
                                             <th>Last name</th>
                                             <th>User</th>
                                             <th>Email</th>
+                                            <th>Active</th>
                                             <th>Delete</th>
                                             <th>Update</th>
                                         </tr>
@@ -30,6 +31,13 @@
                                             <td>{{ user.lastName }}</td>
                                             <td>{{ user.user }}</td>
                                             <td>{{ user.email }}</td>
+                                             {% if user.activo == 1 %}
+                                               <td><button type="button" class="btn btn-success btn-circle"><i class="fa fa-check"></i>
+                                                            </button></td>
+                                               {%  else %}
+                                              <td><button type="button" class="btn btn-warning btn-circle"><i class="fa fa-times"></i>
+                                                            </button></td>
+                                               {% endif  %}
                                             <td><button class="glyphicon glyphicon-trash" ng-click="deleteUser('{{ user.user}}' )"/></td>
                                             <td><button class="glyphicon glyphicon-pencil" ng-click="updateUser('{{ user.user }}', '{{ user.name }}' ,'{{ user.lastName }}' , '{{ user.email}}')"  /></td>
                                           </tr>
@@ -57,9 +65,7 @@
                                 <p>
                                 Apellido: <input type="text"   name="lastName" id="lastName" autofocus required />
                                 <br />
-                                <p>
-                                user <input type="text"   name="user" id="user" autofocus required />
-                                <br />
+
                                  <p>
                                 Email <input type="text"   name="email" id="email" autofocus required />
                                 <br />
@@ -74,7 +80,17 @@
                                       <option value="0">No</option>
                                     </select>
                                 </p>
+                                 <br />
+                                 <p>
+                                  <label for="activo">Activo</label>
+                                    <select id="activo" name="activo" type="text" value="">
+                                      <option value="1">Yes</option>
+                                      <option value="0">No</option>
+                                    </select>
+                                </p>
                                 {% csrf_token %}
+                                 <input type="hidden"   name="user" id="user" autofocus required />
+
                                 <button type="submit" >Update</button>
                             </form>
                         </div>
@@ -125,18 +141,11 @@
         }
 
         $scope.deleteUser = function(userName){
+            var name= "'"+userName +"'";
+            $http.get("{% url 'deleteUser' %}", {params:{"user": userName }})
+            .then(function (response) { /* */ })
 
-            var data = $.param({
-               'user': userName
-            });
 
-            var config = {
-                headers : {
-                    'Content-Type': 'application/x-www-form-urlencoded;charset=utf-8;'
-                }
-            }
-
-            $http.post("{% url 'deleteUser' %}", data, config);
         }
 
 

@@ -1,4 +1,4 @@
-import logging
+
 from datetime import datetime
 
 from DaoMeause import connection
@@ -13,7 +13,12 @@ from django.contrib.auth.models import User
 from form import UserForm
 from models import Measure , Users
 from DaoMeause import userDao,connection
+import logging
 logger = logging.getLogger(__name__)
+
+
+
+
 
 
 
@@ -80,12 +85,16 @@ def user_new(request):
         name = request.POST.get('cname')
         lastName = request.POST.get('lastName')
         admin = request.POST.get('admin')
+
         if admin == '1':
             adminBool = True
+            newUser = User.objects.create_superuser(userName, userMail, userPass)
         else:
             adminBool = False
-        userAdd = user(name, lastName, userMail, userPass, userName, adminBool)
-        newUser = User.objects.create_user(userName, userPass, userPass)
+            newUser = User.objects.create_user(userName, userPass, userMail)
+
+        userAdd = user(name, lastName, userMail, userPass, userName, adminBool, 1)
+
         newUser.save()
         dao = userDao.daoUser()
         dao.addUser(userAdd)
@@ -104,19 +113,26 @@ def updateUser(request):
         name = request.POST.get('name')
         lastName = request.POST.get('lastName')
         admin = request.POST.get('admin')
+        activo = request.POST.get('activo')
         if admin == '1':
             adminBool = True
         else:
             adminBool = False
-        userUpdate = user(name, lastName, userMail, userPass, userName, adminBool)
+
+        userUpdate = user(name, lastName, userMail, userPass, userName, adminBool, int(activo))
         dao.updateUser(userUpdate)
 
     return redirect('user')
 
+
+
+@login_required(login_url='login/')
 def deleteUser(request):
-    user = request.POST.get('user')
+    userGet = request.GET['user']
+    userdelete = user(" ", " ", " ", "", userGet," ",0)
     dao = userDao.daoUser()
-    dao.deleteUser(user)
+    dao.deleteUser(userdelete)
+    logger.debug("this is a debug message!")
     return redirect('user')
 
 

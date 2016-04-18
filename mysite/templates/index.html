@@ -70,10 +70,6 @@
     <script src="/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
-
-
-
-
 </head>
 
 <body >
@@ -118,6 +114,7 @@
                         <li>
                             <a href=""><i class="glyphicon glyphicon-list fa-fw"></i> Interfaces</a>
                         </li>
+                        {% if user.is_superuser == True %}
                          <li>
                             <a href=""><i class="glyphicon glyphicon-tint fa-fw"></i> Graphics</a>
                         </li>
@@ -138,6 +135,7 @@
 
                             </ul>
                         </li>
+                         {% endif %}
 
                 </div>
                 <!-- /.sidebar-collapse -->

@@ -35,12 +35,13 @@ class daoUser():
             'name': user.name,
             'lastName': user.lastName,
             'email': user.email,
-            'admin': user.admin
+            'admin': user.admin,
+            'activo' : user.activo
             }}, upsert=False, full_response= True)
 
 
 
-    def deleteUser(self,user):
+    def deleteUser(self, user):
         collection = self.conn.user()
         collection.find_and_modify(query={'user': user.user}, update={"$set": {
                                     'activo': 0}},
