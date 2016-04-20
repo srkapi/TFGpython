@@ -2,7 +2,7 @@
 from datetime import datetime
 
 from DaoMeause import connection
-from  model.user import user
+from  model import user, event
 from DaoMeause.connection import *
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -54,6 +54,8 @@ def logout_user(request):
 def measureAdd(request):
     sensor=request.GET['sensor']
     measure=request.GET['measure']
+    if float(measure) < 0:
+        eventMeausure=event("medida Negativa",u)
     post = Measure.objects.create(sensor=sensor, type=2, value=measure, fecha=datetime.now())
     post.save()
     return HttpResponse("medida insertada con exist")# Create your views here.

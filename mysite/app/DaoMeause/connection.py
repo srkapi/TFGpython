@@ -10,7 +10,7 @@ class mongoDB():
 
     def __init__(self):
         global conn
-        self.conn = Connection("localhost",27017)
+        self.conn = Connection("localhost", 27017)
         self.db = self.conn.connec['project']
 
 
@@ -24,4 +24,11 @@ class mongoDB():
         db = self.conn['project']
         collection = db.app_measure
         return collection
+
+
+    def event(self):
+        db = self.conn['project']
+        collection = db.app_event
+        return collection
+
 
