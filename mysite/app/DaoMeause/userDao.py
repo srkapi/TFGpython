@@ -1,5 +1,7 @@
 
 from connection import mongoDB
+
+from django.contrib.auth.models import User
 import json
 
 
@@ -29,6 +31,13 @@ class daoUser():
 
     def updateUser(self, user):
         collection = self.conn.user()
+        userDjango = User.objects.get(username=user.user)
+        if user.admin==True:
+            userDjango.is_superuser = True
+        else:
+            userDjango.is_superuser = False
+        userDjango.save()
+
         collection.find_and_modify(query={'user': user.user},  update={
             '$set': {
             'password': user.password,
