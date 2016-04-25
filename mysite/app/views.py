@@ -8,7 +8,7 @@ from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import *
 from pymongo import MongoClient
-from DaoMeause import userDao
+from DaoMeause import daoEvent,userDao
 from django.contrib.auth.models import User
 from form import UserForm
 from models import Measure , Users
@@ -55,10 +55,14 @@ def measureAdd(request):
     sensor=request.GET['sensor']
     measure=request.GET['measure']
     if float(measure) < 0:
-        eventMeausure=event("medida Negativa",u)
-    post = Measure.objects.create(sensor=sensor, type=2, value=measure, fecha=datetime.now())
-    post.save()
-    return HttpResponse("medida insertada con exist")# Create your views here.
+        eventMeausure = event.event("medida Negativa",1)
+        dao = daoEvent.daoEvent()
+        dao.saveEvent(eventMeausure)
+        return HttpResponse("medida negativa")# Create your views here.
+    else:
+        post = Measure.objects.create(sensor=sensor, type=2, value=measure, fecha=datetime.now())
+        post.save()
+        return HttpResponse("medida insertada con exist")# Create your views here.
 
 @login_required(login_url='login/')
 def measure(request):
@@ -96,7 +100,9 @@ def user_new(request):
             newUser = User.objects.create_user(userName, userPass, userMail)
 
         userAdd = user(name, lastName, userMail, userPass, userName, adminBool, 1)
-
+        eventMeausure = event.event("Usuario con nombre: "+name +"ha sido insertado", 2)
+        dao = daoEvent.daoEvent()
+        dao.saveEvent(eventMeausure)
         newUser.save()
         dao = userDao.daoUser()
         dao.addUser(userAdd)
@@ -123,6 +129,9 @@ def updateUser(request):
 
         userUpdate = user(name, lastName, userMail, userPass, userName, adminBool, int(activo))
         dao.updateUser(userUpdate)
+        eventMeausure = event.event("Usuario con nombre: "+name +"ha sido modificado", 3)
+        dao = daoEvent.daoEvent()
+        dao.saveEvent(eventMeausure)
 
     return redirect('user')
 
@@ -134,7 +143,9 @@ def deleteUser(request):
     userdelete = user(" ", " ", " ", "", userGet," ",0)
     dao = userDao.daoUser()
     dao.deleteUser(userdelete)
-    logger.debug("this is a debug message!")
+    eventMeausure = event.event("Usuario con nombre: "+userGet +"ha sido eliminado", 4)
+    dao = daoEvent.daoEvent()
+    dao.saveEvent(eventMeausure)
     return redirect('user')
 
 
