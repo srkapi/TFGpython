@@ -1,0 +1,1597 @@
+[18/Apr/2016 18:39:02] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 39, 2, 371709, tzinfo=<UTC>)}}
+[18/Apr/2016 18:39:02] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:39:05] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 39, 5, 29228, tzinfo=<UTC>)}}
+[18/Apr/2016 18:39:05] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:39:05] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 39, 5, 55239, tzinfo=<UTC>)}}
+[18/Apr/2016 18:39:05] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:41:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 41, 0, 16021, tzinfo=<UTC>)}}
+[18/Apr/2016 18:41:00] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:41:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 41, 1, 689182, tzinfo=<UTC>)}}
+[18/Apr/2016 18:41:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:41:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 41, 1, 701208, tzinfo=<UTC>)}}
+[18/Apr/2016 18:41:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:41:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 41, 26, 987038, tzinfo=<UTC>)}}
+[18/Apr/2016 18:41:26] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:41:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 41, 29, 447455, tzinfo=<UTC>)}}
+[18/Apr/2016 18:41:29] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:41:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 41, 29, 470950, tzinfo=<UTC>)}}
+[18/Apr/2016 18:41:29] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:42:14] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 42, 14, 617991, tzinfo=<UTC>)}}
+[18/Apr/2016 18:42:14] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:42:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 42, 17, 81064, tzinfo=<UTC>)}}
+[18/Apr/2016 18:42:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:42:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 42, 17, 112499, tzinfo=<UTC>)}}
+[18/Apr/2016 18:42:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:42:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 42, 33, 661291, tzinfo=<UTC>)}}
+[18/Apr/2016 18:42:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:42:35] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 42, 35, 940166, tzinfo=<UTC>)}}
+[18/Apr/2016 18:42:35] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:42:35] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 42, 35, 983970, tzinfo=<UTC>)}}
+[18/Apr/2016 18:42:36] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:46:25] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 46, 25, 960581, tzinfo=<UTC>)}}
+[18/Apr/2016 18:46:25] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:46:25] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 76, in list_user
+    return render(request, 'user.html', context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 769, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'if(', expected 'empty' or 'endfor'
+[18/Apr/2016 18:48:38] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 48, 38, 986899, tzinfo=<UTC>)}}
+[18/Apr/2016 18:48:38] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:48:38] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 76, in list_user
+    return render(request, 'user.html', context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 769, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 904, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 837, in __init__
+    super(TemplateIfParser, self).__init__(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/template/smartif.py", line 163, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Library/Python/2.7/site-packages/django/template/smartif.py", line 174, in translate_token
+    return self.create_var(token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 840, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 353, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 570, in __init__
+    "from '%s'" % (token[upto:], token))
+TemplateSyntaxError: Could not parse the remainder: '{{user.activo}}' from '{{user.activo}}'
+[18/Apr/2016 18:49:08] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 49, 8, 560215, tzinfo=<UTC>)}}
+[18/Apr/2016 18:49:08] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:49:08] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 76, in list_user
+    return render(request, 'user.html', context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 769, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 904, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 837, in __init__
+    super(TemplateIfParser, self).__init__(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/template/smartif.py", line 163, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Library/Python/2.7/site-packages/django/template/smartif.py", line 174, in translate_token
+    return self.create_var(token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 840, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 353, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 570, in __init__
+    "from '%s'" % (token[upto:], token))
+TemplateSyntaxError: Could not parse the remainder: '{{' from '{{'
+[18/Apr/2016 18:49:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 49, 17, 66295, tzinfo=<UTC>)}}
+[18/Apr/2016 18:49:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:49:17] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 76, in list_user
+    return render(request, 'user.html', context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 769, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 904, in do_if
+    condition = TemplateIfParser(parser, bits).parse()
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 837, in __init__
+    super(TemplateIfParser, self).__init__(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/template/smartif.py", line 163, in __init__
+    mapped_tokens.append(self.translate_token(token))
+  File "/Library/Python/2.7/site-packages/django/template/smartif.py", line 174, in translate_token
+    return self.create_var(token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 840, in create_var
+    return TemplateLiteral(self.template_parser.compile_filter(value), value)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 353, in compile_filter
+    return FilterExpression(token, self)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 570, in __init__
+    "from '%s'" % (token[upto:], token))
+TemplateSyntaxError: Could not parse the remainder: ':' from '1:'
+[18/Apr/2016 18:49:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 49, 33, 466466, tzinfo=<UTC>)}}
+[18/Apr/2016 18:49:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:49:33] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 76, in list_user
+    return render(request, 'user.html', context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 769, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 905, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'el:', expected 'elif', 'else' or 'endif'
+[18/Apr/2016 18:49:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 49, 42, 432826, tzinfo=<UTC>)}}
+[18/Apr/2016 18:49:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:49:42] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 76, in list_user
+    return render(request, 'user.html', context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 769, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 905, in do_if
+    nodelist = parser.parse(('elif', 'else', 'endif'))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: 'el', expected 'elif', 'else' or 'endif'
+[18/Apr/2016 18:49:47] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 49, 47, 339967, tzinfo=<UTC>)}}
+[18/Apr/2016 18:49:47] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:49:47] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 76, in list_user
+    return render(request, 'user.html', context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 769, in do_for
+    nodelist_loop = parser.parse(('empty', 'endfor',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 919, in do_if
+    nodelist = parser.parse(('endif',))
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 272, in parse
+    self.invalid_block_tag(token, command, parse_until)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 327, in invalid_block_tag
+    (command, get_text_list(["'%s'" % p for p in parse_until])))
+TemplateSyntaxError: Invalid block tag: '}', expected 'endif'
+[18/Apr/2016 18:50:02] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 50, 2, 279353, tzinfo=<UTC>)}}
+[18/Apr/2016 18:50:02] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:50:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 50, 15, 82626, tzinfo=<UTC>)}}
+[18/Apr/2016 18:50:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:50:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 50, 15, 148327, tzinfo=<UTC>)}}
+[18/Apr/2016 18:50:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:54:31] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 54, 31, 98897, tzinfo=<UTC>)}}
+[18/Apr/2016 18:54:31] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:54:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 54, 45, 167015, tzinfo=<UTC>)}}
+[18/Apr/2016 18:54:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:54:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 54, 56, 269638, tzinfo=<UTC>)}}
+[18/Apr/2016 18:54:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:54:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 54, 56, 286902, tzinfo=<UTC>)}}
+[18/Apr/2016 18:54:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:55:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 55, 42, 941382, tzinfo=<UTC>)}}
+[18/Apr/2016 18:55:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:56:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 56, 13, 839300, tzinfo=<UTC>)}}
+[18/Apr/2016 18:56:13] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:56:13] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 95, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "kapitan" }
+[18/Apr/2016 18:56:27] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 56, 27, 278661, tzinfo=<UTC>)}}
+[18/Apr/2016 18:56:27] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:56:27] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 95, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "kapitan" }
+[18/Apr/2016 18:58:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 58, 33, 651115, tzinfo=<UTC>)}}
+[18/Apr/2016 18:58:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:58:43] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 58, 43, 804445, tzinfo=<UTC>)}}
+[18/Apr/2016 18:58:43] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:58:54] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 17, 58, 54, 805489, tzinfo=<UTC>)}}
+[18/Apr/2016 18:58:54] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 18:58:54] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'kapitan', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('5715205e923d590498a2121d'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 17, 58, 54, 811137, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$84yK5UcxzdN4$0gRdjj0pcIvCkdQJtQmjyKztZNO8Ht66bio4a4EFgJA=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 17, 58, 54, 811137, tzinfo=<UTC>)}
+[18/Apr/2016 18:58:54] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'kapitan', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5715205e923d590498a2121d'), 'is_active': True, 'email': u'asdf', 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 17, 58, 54, 811137, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$84yK5UcxzdN4$0gRdjj0pcIvCkdQJtQmjyKztZNO8Ht66bio4a4EFgJA=', 'date_joined': datetime.datetime(2016, 4, 18, 17, 58, 54, 811137, tzinfo=<UTC>)}
+[18/Apr/2016 19:04:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 4, 15, 427194, tzinfo=<UTC>)}}
+[18/Apr/2016 19:04:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:04:15] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 95, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass,is_superuser=admin)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 182, in create_user
+    last_login=now, date_joined=now, **extra_fields)
+TypeError: ModelBase object got multiple values for keyword argument 'is_superuser'
+[18/Apr/2016 19:04:18] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 4, 18, 546107, tzinfo=<UTC>)}}
+[18/Apr/2016 19:04:18] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:04:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 4, 29, 907048, tzinfo=<UTC>)}}
+[18/Apr/2016 19:04:29] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:04:29] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 95, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass,is_superuser=admin)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 182, in create_user
+    last_login=now, date_joined=now, **extra_fields)
+TypeError: ModelBase object got multiple values for keyword argument 'is_superuser'
+[18/Apr/2016 19:04:53] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 4, 53, 803620, tzinfo=<UTC>)}}
+[18/Apr/2016 19:04:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:05:07] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 5, 7, 92217, tzinfo=<UTC>)}}
+[18/Apr/2016 19:05:07] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:05:07] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 95, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass, is_superuser=adminBool)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 182, in create_user
+    last_login=now, date_joined=now, **extra_fields)
+TypeError: ModelBase object got multiple values for keyword argument 'is_superuser'
+[18/Apr/2016 19:07:48] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 7, 48, 131897, tzinfo=<UTC>)}}
+[18/Apr/2016 19:07:48] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:07:48] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'alberto', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('57152274923d59050c0540d2'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 7, 48, 139162, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$NEZX48WCoBWJ$cjiIbtqS/xwI3psTUVovDsga3IZxL6HmJKmiDB3T/NU=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 7, 48, 139162, tzinfo=<UTC>)}
+[18/Apr/2016 19:07:48] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    newUser.create_superuser(userName, userPass, userPass)
+AttributeError: 'User' object has no attribute 'create_superuser'
+[18/Apr/2016 19:08:06] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 8, 6, 234036, tzinfo=<UTC>)}}
+[18/Apr/2016 19:08:06] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:08:06] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 88, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "alberto" }
+[18/Apr/2016 19:08:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 8, 39, 297883, tzinfo=<UTC>)}}
+[18/Apr/2016 19:08:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:08:39] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 88, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "alberto" }
+[18/Apr/2016 19:09:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 9, 0, 656189, tzinfo=<UTC>)}}
+[18/Apr/2016 19:09:00] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:09:00] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'alberto', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('571522bc923d5905131eeadb'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 9, 0, 661908, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$uXGALrkXdWcN$MANoB3X2IFihionGXWBDflM9QksIBV4KYV7Drw8MpHI=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 9, 0, 661908, tzinfo=<UTC>)}
+[18/Apr/2016 19:09:00] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    User.objects.create_superuser(userName, userPass, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "alberto" }
+[18/Apr/2016 19:09:06] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 9, 6, 489357, tzinfo=<UTC>)}}
+[18/Apr/2016 19:09:06] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:09:21] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 9, 21, 213641, tzinfo=<UTC>)}}
+[18/Apr/2016 19:09:21] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:09:21] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 88, in user_new
+    newUser = User.objects.create_user(userName, userPass, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "kapi" }
+[18/Apr/2016 19:09:35] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 9, 35, 378767, tzinfo=<UTC>)}}
+[18/Apr/2016 19:09:35] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:09:35] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'kapi', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('571522df923d5905131eeade'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 9, 35, 383720, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$1dDK1ZswWXWb$oKQ/uc5okffBVewEmTGTzLezgfxpOMQ0uWdHuXilQpU=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 9, 35, 383720, tzinfo=<UTC>)}
+[18/Apr/2016 19:09:35] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    User.objects.create_superuser(userName, userPass, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "kapi" }
+[18/Apr/2016 19:13:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 13, 56, 279297, tzinfo=<UTC>)}}
+[18/Apr/2016 19:13:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:14:12] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 14, 12, 166224, tzinfo=<UTC>)}}
+[18/Apr/2016 19:14:12] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:14:12] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'lucas', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('571523f4923d59052191c798'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 14, 12, 170877, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$gpDVl9NVINND$pLzGk6dM2w5wTZm0q+NfLJBrzsb4l+SA4cmplspX5WU=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 14, 12, 170877, tzinfo=<UTC>)}
+[18/Apr/2016 19:14:12] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    User.objects.create_superuser(userName, userMail, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "lucas" }
+[18/Apr/2016 19:16:04] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 16, 4, 727130, tzinfo=<UTC>)}}
+[18/Apr/2016 19:16:04] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:16:54] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 16, 54, 348952, tzinfo=<UTC>)}}
+[18/Apr/2016 19:16:54] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:16:54] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'luces', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('57152496923d5905310d0818'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 16, 54, 354556, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$bqlPubtnGQWe$Jr5GgFsNM8gCu/2+bAeotHa79MZxdudC6RmBnaqUVb4=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 16, 54, 354556, tzinfo=<UTC>)}
+[18/Apr/2016 19:16:54] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    newUser.create_superuser(userName, userMail, userPass)
+AttributeError: 'User' object has no attribute 'create_superuser'
+[18/Apr/2016 19:17:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 17, 29, 37429, tzinfo=<UTC>)}}
+[18/Apr/2016 19:17:29] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:17:41] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 17, 41, 975026, tzinfo=<UTC>)}}
+[18/Apr/2016 19:17:41] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:17:42] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'lucas', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('571524c6923d5905379b6a62'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 17, 41, 979680, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$ng6YwQpqZcYF$Wi53l7BJPSdZnJihhKWcqycqDAm/QOTw9ueZ2gOieLE=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 17, 41, 979680, tzinfo=<UTC>)}
+[18/Apr/2016 19:17:42] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    User.objects.create_superuser(userName, userMail, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "lucas" }
+[18/Apr/2016 19:17:49] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 17, 49, 666155, tzinfo=<UTC>)}}
+[18/Apr/2016 19:17:49] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:18:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 18, 15, 374491, tzinfo=<UTC>)}}
+[18/Apr/2016 19:18:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:18:15] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'michael', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('571524e7923d5905379b6a64'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 18, 15, 378722, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$nGlzv7G3TNXr$/1xYptuGtHO3nxp0XB3TWHDif5v24niskbNPEhduRrQ=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 18, 15, 378722, tzinfo=<UTC>)}
+[18/Apr/2016 19:18:15] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    User.objects.create_superuser(userName, userMail, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "michael" }
+[18/Apr/2016 19:18:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 18, 39, 26096, tzinfo=<UTC>)}}
+[18/Apr/2016 19:18:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:18:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 18, 51, 875637, tzinfo=<UTC>)}}
+[18/Apr/2016 19:18:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:18:51] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'lorena', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('5715250b923d59053bc656da'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 18, 51, 880002, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$B7BPuqsx1muQ$iAckslH0h0NmgDLSL0K9t69eEHHnwww+43fPIb2MPRI=', 'email': u'asdf@asdfasdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 18, 51, 880002, tzinfo=<UTC>)}
+[18/Apr/2016 19:18:51] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'lorena', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5715250b923d59053bc656da'), 'is_active': True, 'email': u'asdf@asdfasdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 18, 18, 18, 51, 880002, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$B7BPuqsx1muQ$iAckslH0h0NmgDLSL0K9t69eEHHnwww+43fPIb2MPRI=', 'date_joined': datetime.datetime(2016, 4, 18, 18, 18, 51, 880002, tzinfo=<UTC>)}
+[18/Apr/2016 19:18:51] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 97, in user_new
+    newUser.save()
+NameError: global name 'newUser' is not defined
+[18/Apr/2016 19:19:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 19, 42, 355222, tzinfo=<UTC>)}}
+[18/Apr/2016 19:19:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:19:42] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    newUser = User.objects.create_superuser(userName, userMail, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "lorena" }
+[18/Apr/2016 19:19:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 19, 45, 266494, tzinfo=<UTC>)}}
+[18/Apr/2016 19:19:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:19:58] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 19, 58, 26818, tzinfo=<UTC>)}}
+[18/Apr/2016 19:19:58] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:19:58] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'miguel', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('5715254e923d590543561ce3'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 19, 58, 31005, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$mdu8cuhA9uAV$KLmhp9jzD6gJ5Ijx04RV8McRan84Pq2+kf8ne8XzPzY=', 'email': u'miguel@asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 19, 58, 31005, tzinfo=<UTC>)}
+[18/Apr/2016 19:19:58] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'miguel', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5715254e923d590543561ce3'), 'is_active': True, 'email': u'miguel@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 18, 18, 19, 58, 31005, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$mdu8cuhA9uAV$KLmhp9jzD6gJ5Ijx04RV8McRan84Pq2+kf8ne8XzPzY=', 'date_joined': datetime.datetime(2016, 4, 18, 18, 19, 58, 31005, tzinfo=<UTC>)}
+[18/Apr/2016 19:19:58] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'miguel', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5715254e923d590543561ce3'), 'is_active': True, 'email': u'miguel@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 18, 18, 19, 58, 31005, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$mdu8cuhA9uAV$KLmhp9jzD6gJ5Ijx04RV8McRan84Pq2+kf8ne8XzPzY=', 'date_joined': datetime.datetime(2016, 4, 18, 18, 19, 58, 31005, tzinfo=<UTC>)}
+[18/Apr/2016 19:20:10] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 20, 10, 47008, tzinfo=<UTC>)}}
+[18/Apr/2016 19:20:10] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:20:12] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 20, 12, 307598, tzinfo=<UTC>)}}
+[18/Apr/2016 19:20:12] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:20:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 20, 13, 525866, tzinfo=<UTC>)}}
+[18/Apr/2016 19:20:13] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 20, 15, 230819, tzinfo=<UTC>)}}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pwpzf6cu6im1vku1sm8n5myv2w6pakuf'}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'pwpzf6cu6im1vku1sm8n5myv2w6pakuf']}}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'pcbun2105r0u6ox2d04gywn07e8xfehh', 'expire_date': datetime.datetime(2016, 5, 2, 18, 20, 15, 237830, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'pcbun2105r0u6ox2d04gywn07e8xfehh', 'expire_date': datetime.datetime(2016, 5, 2, 18, 20, 15, 241208, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pcbun2105r0u6ox2d04gywn07e8xfehh', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 20, 15, 945223, tzinfo=<UTC>)}}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pcbun2105r0u6ox2d04gywn07e8xfehh'}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'pcbun2105r0u6ox2d04gywn07e8xfehh']}}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'uli095yiu7bfx1ao6kc2hgv54kgbgzst', 'expire_date': datetime.datetime(2016, 5, 2, 18, 20, 15, 951108, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:20:15] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'uli095yiu7bfx1ao6kc2hgv54kgbgzst', 'expire_date': datetime.datetime(2016, 5, 2, 18, 20, 15, 953697, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'uli095yiu7bfx1ao6kc2hgv54kgbgzst', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 20, 20, 350255, tzinfo=<UTC>)}}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'uli095yiu7bfx1ao6kc2hgv54kgbgzst'}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'uli095yiu7bfx1ao6kc2hgv54kgbgzst']}}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'h8p7nhxeir508s26n57oafytl6kjcxcn', 'expire_date': datetime.datetime(2016, 5, 2, 18, 20, 20, 358427, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'miguel'}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'rj024f334hyyek8ixurrl5f2plwky1of', 'expire_date': datetime.datetime(2016, 5, 2, 18, 20, 20, 417594, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'h8p7nhxeir508s26n57oafytl6kjcxcn'}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'h8p7nhxeir508s26n57oafytl6kjcxcn']}}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'miguel', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5715254e923d590543561ce3'), 'is_active': True, 'email': u'miguel@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 18, 18, 20, 20, 420527, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$mdu8cuhA9uAV$KLmhp9jzD6gJ5Ijx04RV8McRan84Pq2+kf8ne8XzPzY=', 'date_joined': datetime.datetime(2016, 4, 18, 18, 19, 58, 31000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'rj024f334hyyek8ixurrl5f2plwky1of', 'expire_date': datetime.datetime(2016, 5, 2, 18, 20, 20, 424517, tzinfo=<UTC>), 'session_data': u'MzJhZDlkNzFjZWFkYTE5MWRlMjA5YjFmMzJjYzdmYTk5YjZiZGI0YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU3MTUyNTRlOTIzZDU5MDU0MzU2MWNlMyJ9'}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rj024f334hyyek8ixurrl5f2plwky1of', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 20, 20, 430856, tzinfo=<UTC>)}}
+[18/Apr/2016 19:20:20] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5715254e923d590543561ce3')}
+[18/Apr/2016 19:21:18] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rj024f334hyyek8ixurrl5f2plwky1of', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 21, 18, 633637, tzinfo=<UTC>)}}
+[18/Apr/2016 19:21:18] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5715254e923d590543561ce3')}
+[18/Apr/2016 19:21:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rj024f334hyyek8ixurrl5f2plwky1of', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 21, 29, 323392, tzinfo=<UTC>)}}
+[18/Apr/2016 19:21:29] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5715254e923d590543561ce3')}
+[18/Apr/2016 19:21:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rj024f334hyyek8ixurrl5f2plwky1of'}
+[18/Apr/2016 19:21:29] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'rj024f334hyyek8ixurrl5f2plwky1of']}}
+[18/Apr/2016 19:21:29] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'gh93axpasvgr6c8lxrw2fadnplhhdjni', 'expire_date': datetime.datetime(2016, 5, 2, 18, 21, 29, 332197, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:21:29] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'gh93axpasvgr6c8lxrw2fadnplhhdjni', 'expire_date': datetime.datetime(2016, 5, 2, 18, 21, 29, 334436, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'gh93axpasvgr6c8lxrw2fadnplhhdjni', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 21, 33, 646012, tzinfo=<UTC>)}}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'gh93axpasvgr6c8lxrw2fadnplhhdjni'}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'gh93axpasvgr6c8lxrw2fadnplhhdjni']}}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'07bzvu5ibyaq3rajm3qh1kyqjc5dhcvg', 'expire_date': datetime.datetime(2016, 5, 2, 18, 21, 33, 651909, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'sr.kapi'}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': datetime.datetime(2016, 5, 2, 18, 21, 33, 706353, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'07bzvu5ibyaq3rajm3qh1kyqjc5dhcvg'}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'07bzvu5ibyaq3rajm3qh1kyqjc5dhcvg']}}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'sr.kapi', 'first_name': u'', 'last_name': u'', '_id': ObjectId('56e077ac923d590b9d86f899'), 'is_active': True, 'email': u'albertowas12@hotmail.com', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 18, 18, 21, 33, 709328, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$rtL1RKAlaFik$y38g8sYToNKaPCWxnekri2SWIPrCdWaE162nkbAQ4vg=', 'date_joined': datetime.datetime(2016, 3, 9, 1, 21, 16, 645000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': datetime.datetime(2016, 5, 2, 18, 21, 33, 711373, tzinfo=<UTC>), 'session_data': u'MDliZGNmY2QzMzgyNDIxNWY1MTI1NDM4MGU2MTNhOTU2Njk2NDBkYTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU2ZTA3N2FjOTIzZDU5MGI5ZDg2Zjg5OSJ9'}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 21, 33, 718172, tzinfo=<UTC>)}}
+[18/Apr/2016 19:21:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:21:52] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 21, 52, 145427, tzinfo=<UTC>)}}
+[18/Apr/2016 19:21:52] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:22:16] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 16, 393096, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:16] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:22:16] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'sergio', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('571525d8923d590543561ce5'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 22, 16, 397498, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$XoRSlqfOkBQM$ri6qiOwNkbc54NLwuxTXdP5xXjGlsxG3mkjpXKNxbps=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 18, 18, 22, 16, 397498, tzinfo=<UTC>)}
+[18/Apr/2016 19:22:16] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'sergio', 'first_name': u'', 'last_name': u'', '_id': ObjectId('571525d8923d590543561ce5'), 'is_active': True, 'email': u'asdf', 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 18, 18, 22, 16, 397498, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$XoRSlqfOkBQM$ri6qiOwNkbc54NLwuxTXdP5xXjGlsxG3mkjpXKNxbps=', 'date_joined': datetime.datetime(2016, 4, 18, 18, 22, 16, 397498, tzinfo=<UTC>)}
+[18/Apr/2016 19:22:23] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 23, 127212, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:23] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:22:32] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 32, 701808, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:32] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:22:38] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 38, 463256, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:38] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:22:38] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 38, 809598, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:38] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 39, 247253, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'cncmfu717gdigxc43r395nx6g96iiy5r'}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'cncmfu717gdigxc43r395nx6g96iiy5r']}}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'z1j9nxt70efd8tkqutscdniwntfceq97', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 39, 254348, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'z1j9nxt70efd8tkqutscdniwntfceq97', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 39, 256787, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'z1j9nxt70efd8tkqutscdniwntfceq97', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 39, 790699, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'z1j9nxt70efd8tkqutscdniwntfceq97'}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'z1j9nxt70efd8tkqutscdniwntfceq97']}}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'ch19j800p78gieuyammpjk3hzfmr60kv', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 39, 803235, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:39] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'ch19j800p78gieuyammpjk3hzfmr60kv', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 39, 809116, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:43] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'ch19j800p78gieuyammpjk3hzfmr60kv', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 43, 457046, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:43] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'ch19j800p78gieuyammpjk3hzfmr60kv'}
+[18/Apr/2016 19:22:43] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'ch19j800p78gieuyammpjk3hzfmr60kv']}}
+[18/Apr/2016 19:22:43] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u's4fczuay882fu2t63fsub6qg7rapy7la', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 43, 463004, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:43] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'sergio'}
+[18/Apr/2016 19:22:43] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u's4fczuay882fu2t63fsub6qg7rapy7la', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 43, 519358, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 's4fczuay882fu2t63fsub6qg7rapy7la', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 51, 907635, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 's4fczuay882fu2t63fsub6qg7rapy7la'}
+[18/Apr/2016 19:22:51] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u's4fczuay882fu2t63fsub6qg7rapy7la']}}
+[18/Apr/2016 19:22:51] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'blmcjkpaprl3z5ttpyd69d7loxow40sj', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 51, 914149, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'sergio'}
+[18/Apr/2016 19:22:51] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'blmcjkpaprl3z5ttpyd69d7loxow40sj', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 51, 966583, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'blmcjkpaprl3z5ttpyd69d7loxow40sj', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 22, 57, 211347, tzinfo=<UTC>)}}
+[18/Apr/2016 19:22:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'blmcjkpaprl3z5ttpyd69d7loxow40sj'}
+[18/Apr/2016 19:22:57] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'blmcjkpaprl3z5ttpyd69d7loxow40sj']}}
+[18/Apr/2016 19:22:57] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'vl8u3uxnrimtlxrtu11uwankgzvkcuyv', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 57, 217295, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:22:57] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'michael'}
+[18/Apr/2016 19:22:57] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'vl8u3uxnrimtlxrtu11uwankgzvkcuyv', 'expire_date': datetime.datetime(2016, 5, 2, 18, 22, 57, 276060, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'vl8u3uxnrimtlxrtu11uwankgzvkcuyv', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 23, 1, 266294, tzinfo=<UTC>)}}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'vl8u3uxnrimtlxrtu11uwankgzvkcuyv'}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'vl8u3uxnrimtlxrtu11uwankgzvkcuyv']}}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'dtuaroe1yqjppt899ccbye9c54intjyx', 'expire_date': datetime.datetime(2016, 5, 2, 18, 23, 1, 272051, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'miguel'}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'uqcranfp6gkvp772ptd2s4zzskblqtst', 'expire_date': datetime.datetime(2016, 5, 2, 18, 23, 1, 328042, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'dtuaroe1yqjppt899ccbye9c54intjyx'}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'dtuaroe1yqjppt899ccbye9c54intjyx']}}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'miguel', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5715254e923d590543561ce3'), 'is_active': True, 'email': u'miguel@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 18, 18, 23, 1, 331389, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$mdu8cuhA9uAV$KLmhp9jzD6gJ5Ijx04RV8McRan84Pq2+kf8ne8XzPzY=', 'date_joined': datetime.datetime(2016, 4, 18, 17, 19, 58, 31000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'uqcranfp6gkvp772ptd2s4zzskblqtst', 'expire_date': datetime.datetime(2016, 5, 2, 18, 23, 1, 333029, tzinfo=<UTC>), 'session_data': u'MzJhZDlkNzFjZWFkYTE5MWRlMjA5YjFmMzJjYzdmYTk5YjZiZGI0YTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU3MTUyNTRlOTIzZDU5MDU0MzU2MWNlMyJ9'}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'uqcranfp6gkvp772ptd2s4zzskblqtst', 'expire_date': {'$gt': datetime.datetime(2016, 4, 18, 18, 23, 1, 339404, tzinfo=<UTC>)}}
+[18/Apr/2016 19:23:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5715254e923d590543561ce3')}
+[20/Apr/2016 16:57:17] WARNING [django.request:144] Not Found: /
+[20/Apr/2016 16:57:18] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 24, in _wrapped_view
+    if test_func(request.user):
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 50, in <lambda>
+    lambda u: u.is_authenticated(),
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 270, in _setup
+    self._wrapped = self._setupfunc()
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 18, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/__init__.py", line 136, in get_user
+    user_id = request.session[SESSION_KEY]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 44, in __getitem__
+    return self._session[key]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 167, in _get_session
+    self._session_cache = self.load()
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/db.py", line 18, in load
+    expire_date__gt=timezone.now()
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 398, in get
+    num = len(clone)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 106, in __len__
+    self._result_cache = list(self.iterator())
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 317, in iterator
+    for row in compiler.results_iter():
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 406, in results_iter
+    results = self.build_query(fields).fetch(
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 522, in build_query
+    query = self.query_class(self, fields)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 97, in __init__
+    self.collection = self.compiler.get_collection()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 296, in get_collection
+    return self.connection.get_collection(self.query.get_meta().db_table)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 207, in get_collection
+    collection = self.collection_class(self.database, name, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 215, in __getattr__
+    self._connect()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 268, in _connect
+    self.connection = connection_class(**conn_options)
+  File "/Library/Python/2.7/site-packages/pymongo/mongo_client.py", line 377, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 61] Connection refused
+[20/Apr/2016 16:57:20] ERROR [django.request:210] Internal Server Error: /app/user/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 24, in _wrapped_view
+    if test_func(request.user):
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 50, in <lambda>
+    lambda u: u.is_authenticated(),
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 270, in _setup
+    self._wrapped = self._setupfunc()
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 18, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/__init__.py", line 136, in get_user
+    user_id = request.session[SESSION_KEY]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 44, in __getitem__
+    return self._session[key]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 167, in _get_session
+    self._session_cache = self.load()
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/db.py", line 18, in load
+    expire_date__gt=timezone.now()
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 398, in get
+    num = len(clone)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 106, in __len__
+    self._result_cache = list(self.iterator())
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 317, in iterator
+    for row in compiler.results_iter():
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 406, in results_iter
+    results = self.build_query(fields).fetch(
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 522, in build_query
+    query = self.query_class(self, fields)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 97, in __init__
+    self.collection = self.compiler.get_collection()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 296, in get_collection
+    return self.connection.get_collection(self.query.get_meta().db_table)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 207, in get_collection
+    collection = self.collection_class(self.database, name, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 215, in __getattr__
+    self._connect()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 268, in _connect
+    self.connection = connection_class(**conn_options)
+  File "/Library/Python/2.7/site-packages/pymongo/mongo_client.py", line 377, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 61] Connection refused
+[20/Apr/2016 16:57:21] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 24, in _wrapped_view
+    if test_func(request.user):
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 50, in <lambda>
+    lambda u: u.is_authenticated(),
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 270, in _setup
+    self._wrapped = self._setupfunc()
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 18, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/__init__.py", line 136, in get_user
+    user_id = request.session[SESSION_KEY]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 44, in __getitem__
+    return self._session[key]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 167, in _get_session
+    self._session_cache = self.load()
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/db.py", line 18, in load
+    expire_date__gt=timezone.now()
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 398, in get
+    num = len(clone)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 106, in __len__
+    self._result_cache = list(self.iterator())
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 317, in iterator
+    for row in compiler.results_iter():
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 406, in results_iter
+    results = self.build_query(fields).fetch(
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 522, in build_query
+    query = self.query_class(self, fields)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 97, in __init__
+    self.collection = self.compiler.get_collection()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 296, in get_collection
+    return self.connection.get_collection(self.query.get_meta().db_table)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 207, in get_collection
+    collection = self.collection_class(self.database, name, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 215, in __getattr__
+    self._connect()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 268, in _connect
+    self.connection = connection_class(**conn_options)
+  File "/Library/Python/2.7/site-packages/pymongo/mongo_client.py", line 377, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 61] Connection refused
+[20/Apr/2016 16:57:21] ERROR [django.request:210] Internal Server Error: /app/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 24, in _wrapped_view
+    if test_func(request.user):
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 50, in <lambda>
+    lambda u: u.is_authenticated(),
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 270, in _setup
+    self._wrapped = self._setupfunc()
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 18, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/__init__.py", line 136, in get_user
+    user_id = request.session[SESSION_KEY]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 44, in __getitem__
+    return self._session[key]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 167, in _get_session
+    self._session_cache = self.load()
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/db.py", line 18, in load
+    expire_date__gt=timezone.now()
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 398, in get
+    num = len(clone)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 106, in __len__
+    self._result_cache = list(self.iterator())
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 317, in iterator
+    for row in compiler.results_iter():
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 406, in results_iter
+    results = self.build_query(fields).fetch(
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 522, in build_query
+    query = self.query_class(self, fields)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 97, in __init__
+    self.collection = self.compiler.get_collection()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 296, in get_collection
+    return self.connection.get_collection(self.query.get_meta().db_table)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 207, in get_collection
+    collection = self.collection_class(self.database, name, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 215, in __getattr__
+    self._connect()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 268, in _connect
+    self.connection = connection_class(**conn_options)
+  File "/Library/Python/2.7/site-packages/pymongo/mongo_client.py", line 377, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 61] Connection refused
+[20/Apr/2016 17:00:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'uqcranfp6gkvp772ptd2s4zzskblqtst', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 16, 0, 0, 210113, tzinfo=<UTC>)}}
+[20/Apr/2016 17:00:00] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5715254e923d590543561ce3')}
+[20/Apr/2016 17:19:38] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'uqcranfp6gkvp772ptd2s4zzskblqtst', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 16, 19, 38, 93629, tzinfo=<UTC>)}}
+[20/Apr/2016 17:19:38] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5715254e923d590543561ce3')}
+[20/Apr/2016 17:19:38] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'uqcranfp6gkvp772ptd2s4zzskblqtst'}
+[20/Apr/2016 17:19:38] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'uqcranfp6gkvp772ptd2s4zzskblqtst']}}
+[20/Apr/2016 17:19:38] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'dqzzifda2lbyvy0aqjsxevz3jo1gw76z', 'expire_date': datetime.datetime(2016, 5, 4, 16, 19, 38, 102412, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 17:19:38] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'dqzzifda2lbyvy0aqjsxevz3jo1gw76z', 'expire_date': datetime.datetime(2016, 5, 4, 16, 19, 38, 106344, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'dqzzifda2lbyvy0aqjsxevz3jo1gw76z', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 16, 19, 42, 420844, tzinfo=<UTC>)}}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'dqzzifda2lbyvy0aqjsxevz3jo1gw76z'}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'dqzzifda2lbyvy0aqjsxevz3jo1gw76z']}}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'6wui94zecb4507zvbqevkf4yqq6g79uq', 'expire_date': datetime.datetime(2016, 5, 4, 16, 19, 42, 426491, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'sr.kapi'}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': datetime.datetime(2016, 5, 4, 16, 19, 42, 480798, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'6wui94zecb4507zvbqevkf4yqq6g79uq'}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'6wui94zecb4507zvbqevkf4yqq6g79uq']}}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'sr.kapi', 'first_name': u'', 'last_name': u'', '_id': ObjectId('56e077ac923d590b9d86f899'), 'is_active': True, 'email': u'albertowas12@hotmail.com', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 20, 16, 19, 42, 488094, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$rtL1RKAlaFik$y38g8sYToNKaPCWxnekri2SWIPrCdWaE162nkbAQ4vg=', 'date_joined': datetime.datetime(2016, 3, 9, 0, 21, 16, 645000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': datetime.datetime(2016, 5, 4, 16, 19, 42, 491500, tzinfo=<UTC>), 'session_data': u'MDliZGNmY2QzMzgyNDIxNWY1MTI1NDM4MGU2MTNhOTU2Njk2NDBkYTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU2ZTA3N2FjOTIzZDU5MGI5ZDg2Zjg5OSJ9'}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 16, 19, 42, 500299, tzinfo=<UTC>)}}
+[20/Apr/2016 17:19:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 17:51:41] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 16, 51, 41, 936213, tzinfo=<UTC>)}}
+[20/Apr/2016 17:51:41] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:07:48] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 7, 48, 382501, tzinfo=<UTC>)}}
+[20/Apr/2016 18:07:48] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:08:58] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 8, 58, 435755, tzinfo=<UTC>)}}
+[20/Apr/2016 18:08:58] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:16:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 16, 29, 315079, tzinfo=<UTC>)}}
+[20/Apr/2016 18:16:29] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:16:29] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'ana', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('5717b96d923d5902e159c172'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 20, 17, 16, 29, 320381, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$wv6gtemwA3Oi$yCldJbK9E4LL02ZF+nGF4ehfkIAaU65BHFdiNTOm0HA=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 20, 17, 16, 29, 320381, tzinfo=<UTC>)}
+[20/Apr/2016 18:16:29] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 92, in user_new
+    newUser = User.objects.create_superuser(userName, userMail, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "ana" }
+[20/Apr/2016 18:17:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 17, 1, 912767, tzinfo=<UTC>)}}
+[20/Apr/2016 18:17:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:17:01] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 91, in user_new
+    newUser = User.objects.create_superuser(userName, userMail, userPass)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 189, in create_superuser
+    u = self.create_user(username, email, password, **extra_fields)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/models.py", line 185, in create_user
+    user.save(using=self._db)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 548, in save
+    force_update=force_update, update_fields=update_fields)
+  File "/Library/Python/2.7/site-packages/django/db/models/base.py", line 668, in save_base
+    result = manager._insert([self], fields=fields, return_id=update_pk, using=using, raw=raw)
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 215, in _insert
+    return insert_query(self.model, objs, fields, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 1675, in insert_query
+    return query.get_compiler(using=using).execute_sql(return_id)
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 640, in execute_sql
+    key = self.insert(to_insert, return_id=return_id)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 84, in wrapper
+    return func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 391, in insert
+    return collection.save(doc, **options)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 79, in wrapper
+    duration, retval = self.profile_call(func, args, kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/utils.py", line 58, in profile_call
+    retval = func(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 285, in save
+    return self.insert(to_save, manipulate, safe, check_keys, **kwargs)
+  File "/Library/Python/2.7/site-packages/pymongo/collection.py", line 410, in insert
+    _check_write_command_response(results)
+  File "/Library/Python/2.7/site-packages/pymongo/helpers.py", line 202, in _check_write_command_response
+    raise DuplicateKeyError(error.get("errmsg"), 11000, error)
+IntegrityError: E11000 duplicate key error collection: project.auth_user index: username_1 dup key: { : "ana" }
+[20/Apr/2016 18:17:11] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 17, 11, 127817, tzinfo=<UTC>)}}
+[20/Apr/2016 18:17:11] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:25:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 25, 56, 151645, tzinfo=<UTC>)}}
+[20/Apr/2016 18:25:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:25:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 25, 57, 415596, tzinfo=<UTC>)}}
+[20/Apr/2016 18:25:57] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:27:25] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 27, 25, 902075, tzinfo=<UTC>)}}
+[20/Apr/2016 18:27:25] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:27:25] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'anita', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('5717bbfd923d5902ea112299'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 20, 17, 27, 25, 908338, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$qVjTjbxeJuHF$z+WCJwFbO7g2rfkWRccp6aX1w1NtXfgy874YZUpzb2g=', 'email': u'asdf', 'date_joined': datetime.datetime(2016, 4, 20, 17, 27, 25, 908338, tzinfo=<UTC>)}
+[20/Apr/2016 18:27:25] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'anita', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717bbfd923d5902ea112299'), 'is_active': True, 'email': u'asdf', 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 20, 17, 27, 25, 908338, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$qVjTjbxeJuHF$z+WCJwFbO7g2rfkWRccp6aX1w1NtXfgy874YZUpzb2g=', 'date_joined': datetime.datetime(2016, 4, 20, 17, 27, 25, 908338, tzinfo=<UTC>)}
+[20/Apr/2016 18:27:29] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 27, 29, 264589, tzinfo=<UTC>)}}
+[20/Apr/2016 18:27:29] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:27:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 27, 57, 455887, tzinfo=<UTC>)}}
+[20/Apr/2016 18:27:57] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:27:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 27, 57, 471403, tzinfo=<UTC>)}}
+[20/Apr/2016 18:27:57] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:33:35] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 33, 35, 110488, tzinfo=<UTC>)}}
+[20/Apr/2016 18:33:35] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:33:35] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'anita'}
+[20/Apr/2016 18:33:35] ERROR [django.request:210] Internal Server Error: /app/udpateUser/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 123, in updateUser
+    dao.updateUser(userUpdate)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/DaoMeause/userDao.py", line 35, in updateUser
+    if user.admin == True:
+AttributeError: 'User' object has no attribute 'admin'
+[20/Apr/2016 18:34:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 34, 17, 522391, tzinfo=<UTC>)}}
+[20/Apr/2016 18:34:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:34:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'anita'}
+[20/Apr/2016 18:34:17] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'anita', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717bbfd923d5902ea112299'), 'is_active': True, 'email': u'asdf', 'is_superuser': True, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 20, 17, 27, 25, 908000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>), 'password': u'pbkdf2_sha256$10000$qVjTjbxeJuHF$z+WCJwFbO7g2rfkWRccp6aX1w1NtXfgy874YZUpzb2g=', 'date_joined': datetime.datetime(2016, 4, 20, 17, 27, 25, 908000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[20/Apr/2016 18:34:18] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 34, 18, 27687, tzinfo=<UTC>)}}
+[20/Apr/2016 18:34:18] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:35:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 35, 45, 649073, tzinfo=<UTC>)}}
+[20/Apr/2016 18:35:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:36:09] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 9, 555067, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:09] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:36:09] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'pablito', 'first_name': u'', 'last_name': u'', 'is_active': True, '_id': ObjectId('5717be09923d59031ba3ab32'), 'is_superuser': False, 'is_staff': False, 'last_login': datetime.datetime(2016, 4, 20, 17, 36, 9, 558756, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$n62xCW9eP0vc$Qlgx7TFoS0kAp6FGlta4BMUO47ktrJq4oncIQhxWFSs=', 'email': u'asg@asdf', 'date_joined': datetime.datetime(2016, 4, 20, 17, 36, 9, 558756, tzinfo=<UTC>)}
+[20/Apr/2016 18:36:09] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'pablito', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717be09923d59031ba3ab32'), 'is_active': True, 'email': u'asg@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 20, 17, 36, 9, 558756, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$n62xCW9eP0vc$Qlgx7TFoS0kAp6FGlta4BMUO47ktrJq4oncIQhxWFSs=', 'date_joined': datetime.datetime(2016, 4, 20, 17, 36, 9, 558756, tzinfo=<UTC>)}
+[20/Apr/2016 18:36:09] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'pablito', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717be09923d59031ba3ab32'), 'is_active': True, 'email': u'asg@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 20, 17, 36, 9, 558756, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$n62xCW9eP0vc$Qlgx7TFoS0kAp6FGlta4BMUO47ktrJq4oncIQhxWFSs=', 'date_joined': datetime.datetime(2016, 4, 20, 17, 36, 9, 558756, tzinfo=<UTC>)}
+[20/Apr/2016 18:36:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 13, 855418, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:13] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:36:18] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 18, 617645, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:18] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:36:19] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 19, 873674, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:19] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:36:19] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 19, 964043, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:19] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:36:22] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 22, 86609, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:22] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[20/Apr/2016 18:36:22] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx'}
+[20/Apr/2016 18:36:22] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'pnv9irpnw8w0w3dzxrn2lu7f03n8j4bx']}}
+[20/Apr/2016 18:36:22] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'c9flj7e49u797dtz3whh63rjoktwtsb3', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 22, 95409, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:22] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'c9flj7e49u797dtz3whh63rjoktwtsb3', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 22, 98098, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'c9flj7e49u797dtz3whh63rjoktwtsb3', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 25, 623079, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'c9flj7e49u797dtz3whh63rjoktwtsb3'}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'c9flj7e49u797dtz3whh63rjoktwtsb3']}}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'ikxbolgj7gmtocp54b1npswmc0767i5o', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 25, 632394, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'pablito'}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 25, 685130, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'ikxbolgj7gmtocp54b1npswmc0767i5o'}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'ikxbolgj7gmtocp54b1npswmc0767i5o']}}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'pablito', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717be09923d59031ba3ab32'), 'is_active': True, 'email': u'asg@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 20, 17, 36, 25, 688009, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$n62xCW9eP0vc$Qlgx7TFoS0kAp6FGlta4BMUO47ktrJq4oncIQhxWFSs=', 'date_joined': datetime.datetime(2016, 4, 20, 17, 36, 9, 558000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 25, 689461, tzinfo=<UTC>), 'session_data': u'OTg4YTBmNjM0ZDk1OTQxZjBiMGMxYjNiZTk2N2EzYTE4NjNjOGZjZTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU3MTdiZTA5OTIzZDU5MDMxYmEzYWIzMiJ9'}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 25, 698394, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:25] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:28] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 28, 67442, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:28] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:46] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 46, 570669, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:46] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:46] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'pablito'}
+[20/Apr/2016 18:36:46] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 46, 584288, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:46] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:53] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 53, 301373, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:53] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 53, 783057, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:53] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 53, 912440, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 56, 98505, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:36:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'kzc713g7kuaqeezrgk22wnfbpgd42vd7'}
+[20/Apr/2016 18:36:56] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'kzc713g7kuaqeezrgk22wnfbpgd42vd7']}}
+[20/Apr/2016 18:36:56] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'eig7yher1kbks1ug62dhlzm5rlpf0krl', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 56, 108092, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:56] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'eig7yher1kbks1ug62dhlzm5rlpf0krl', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 56, 110193, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'eig7yher1kbks1ug62dhlzm5rlpf0krl', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 59, 539819, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'eig7yher1kbks1ug62dhlzm5rlpf0krl'}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'eig7yher1kbks1ug62dhlzm5rlpf0krl']}}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'777q1yif588tpkq543h0fj4t6u7ulb50', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 59, 545554, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'pablito'}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 59, 597897, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'777q1yif588tpkq543h0fj4t6u7ulb50'}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'777q1yif588tpkq543h0fj4t6u7ulb50']}}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'pablito', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717be09923d59031ba3ab32'), 'is_active': True, 'email': u'asg@asdf', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 20, 17, 36, 59, 601056, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$n62xCW9eP0vc$Qlgx7TFoS0kAp6FGlta4BMUO47ktrJq4oncIQhxWFSs=', 'date_joined': datetime.datetime(2016, 4, 20, 16, 36, 9, 558000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': datetime.datetime(2016, 5, 4, 17, 36, 59, 603109, tzinfo=<UTC>), 'session_data': u'OTg4YTBmNjM0ZDk1OTQxZjBiMGMxYjNiZTk2N2EzYTE4NjNjOGZjZTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU3MTdiZTA5OTIzZDU5MDMxYmEzYWIzMiJ9'}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 36, 59, 610638, tzinfo=<UTC>)}}
+[20/Apr/2016 18:36:59] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:28] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 28, 610673, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:28] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:43] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 43, 877029, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:43] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:43] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'pablito'}
+[20/Apr/2016 18:37:43] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 43, 895479, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:43] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:47] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 47, 440242, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:47] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:50] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 50, 214840, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:50] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:50] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 50, 518616, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:50] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 51, 33858, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:37:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 37, 51, 102955, tzinfo=<UTC>)}}
+[20/Apr/2016 18:37:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:39:03] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 39, 3, 251309, tzinfo=<UTC>)}}
+[20/Apr/2016 18:39:03] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:39:16] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 39, 16, 552409, tzinfo=<UTC>)}}
+[20/Apr/2016 18:39:16] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 18:39:16] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'pablito'}
+[20/Apr/2016 18:39:16] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'pablito', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717be09923d59031ba3ab32'), 'is_active': True, 'email': u'asg@asdf', 'is_superuser': False, 'is_staff': True, 'last_login': datetime.datetime(2016, 4, 20, 17, 36, 59, 601000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>), 'password': u'pbkdf2_sha256$10000$n62xCW9eP0vc$Qlgx7TFoS0kAp6FGlta4BMUO47ktrJq4oncIQhxWFSs=', 'date_joined': datetime.datetime(2016, 4, 20, 15, 36, 9, 558000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[20/Apr/2016 18:39:16] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 20, 17, 39, 16, 568454, tzinfo=<UTC>)}}
+[20/Apr/2016 18:39:16] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[20/Apr/2016 19:18:09] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'93ydojpw99ey58xce4dt41x1cm9kn18f', 'expire_date': datetime.datetime(2016, 5, 4, 18, 18, 9, 626800, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 19:18:09] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'93ydojpw99ey58xce4dt41x1cm9kn18f', 'expire_date': datetime.datetime(2016, 5, 4, 18, 18, 9, 666681, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 19:18:09] WARNING [django.request:144] Not Found: /apple-touch-icon-precomposed.png
+[20/Apr/2016 19:18:09] WARNING [django.request:144] Not Found: /favicon.ico
+[20/Apr/2016 19:18:09] WARNING [django.request:144] Not Found: /apple-touch-icon.png
+[20/Apr/2016 19:18:09] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'123wzoj3ktxgyedmc5qy6xq1ou9yy2yc', 'expire_date': datetime.datetime(2016, 5, 4, 18, 18, 9, 859093, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 19:18:09] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'123wzoj3ktxgyedmc5qy6xq1ou9yy2yc', 'expire_date': datetime.datetime(2016, 5, 4, 18, 18, 9, 861367, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[20/Apr/2016 19:18:09] WARNING [django.request:144] Not Found: /apple-touch-icon-precomposed.png
+[20/Apr/2016 19:18:09] WARNING [django.request:144] Not Found: /apple-touch-icon.png
+[25/Apr/2016 18:15:21] ERROR [django.request:210] Internal Server Error: /app/user/new/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 24, in _wrapped_view
+    if test_func(request.user):
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 50, in <lambda>
+    lambda u: u.is_authenticated(),
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 270, in _setup
+    self._wrapped = self._setupfunc()
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 18, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/__init__.py", line 136, in get_user
+    user_id = request.session[SESSION_KEY]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 44, in __getitem__
+    return self._session[key]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 167, in _get_session
+    self._session_cache = self.load()
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/db.py", line 18, in load
+    expire_date__gt=timezone.now()
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 398, in get
+    num = len(clone)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 106, in __len__
+    self._result_cache = list(self.iterator())
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 317, in iterator
+    for row in compiler.results_iter():
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 406, in results_iter
+    results = self.build_query(fields).fetch(
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 522, in build_query
+    query = self.query_class(self, fields)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 97, in __init__
+    self.collection = self.compiler.get_collection()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 296, in get_collection
+    return self.connection.get_collection(self.query.get_meta().db_table)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 207, in get_collection
+    collection = self.collection_class(self.database, name, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 215, in __getattr__
+    self._connect()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 268, in _connect
+    self.connection = connection_class(**conn_options)
+  File "/Library/Python/2.7/site-packages/pymongo/mongo_client.py", line 377, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 61] Connection refused
+[25/Apr/2016 18:15:21] WARNING [django.request:144] Not Found: /favicon.ico
+[25/Apr/2016 18:15:37] ERROR [django.request:210] Internal Server Error: /app/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 24, in _wrapped_view
+    if test_func(request.user):
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 50, in <lambda>
+    lambda u: u.is_authenticated(),
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 204, in inner
+    self._setup()
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 270, in _setup
+    self._wrapped = self._setupfunc()
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 18, in <lambda>
+    request.user = SimpleLazyObject(lambda: get_user(request))
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/middleware.py", line 10, in get_user
+    request._cached_user = auth.get_user(request)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/__init__.py", line 136, in get_user
+    user_id = request.session[SESSION_KEY]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 44, in __getitem__
+    return self._session[key]
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/base.py", line 167, in _get_session
+    self._session_cache = self.load()
+  File "/Library/Python/2.7/site-packages/django/contrib/sessions/backends/db.py", line 18, in load
+    expire_date__gt=timezone.now()
+  File "/Library/Python/2.7/site-packages/django/db/models/manager.py", line 143, in get
+    return self.get_query_set().get(*args, **kwargs)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 398, in get
+    num = len(clone)
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 106, in __len__
+    self._result_cache = list(self.iterator())
+  File "/Library/Python/2.7/site-packages/django/db/models/query.py", line 317, in iterator
+    for row in compiler.results_iter():
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 406, in results_iter
+    results = self.build_query(fields).fetch(
+  File "/Library/Python/2.7/site-packages/djangotoolbox/db/basecompiler.py", line 522, in build_query
+    query = self.query_class(self, fields)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 97, in __init__
+    self.collection = self.compiler.get_collection()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/compiler.py", line 296, in get_collection
+    return self.connection.get_collection(self.query.get_meta().db_table)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 207, in get_collection
+    collection = self.collection_class(self.database, name, **kwargs)
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 215, in __getattr__
+    self._connect()
+  File "/Library/Python/2.7/site-packages/django_mongodb_engine/base.py", line 268, in _connect
+    self.connection = connection_class(**conn_options)
+  File "/Library/Python/2.7/site-packages/pymongo/mongo_client.py", line 377, in __init__
+    raise ConnectionFailure(str(e))
+ConnectionFailure: [Errno 61] Connection refused
+[25/Apr/2016 18:15:46] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'rb3vbb0knxrmn16xhwqdu31uy7zv3qeg', 'expire_date': {'$gt': datetime.datetime(2016, 4, 25, 17, 15, 46, 847191, tzinfo=<UTC>)}}
+[25/Apr/2016 18:15:46] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[25/Apr/2016 18:29:03] WARNING [django.request:144] Not Found: /
+[25/Apr/2016 18:29:03] WARNING [django.request:144] Not Found: /favicon.ico
+[25/Apr/2016 18:29:03] WARNING [django.request:144] Not Found: /apple-touch-icon-precomposed.png
+[25/Apr/2016 18:29:03] WARNING [django.request:144] Not Found: /apple-touch-icon.png
+[25/Apr/2016 18:29:04] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 25, 17, 29, 4, 424849, tzinfo=<UTC>)}}
+[25/Apr/2016 18:29:04] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[25/Apr/2016 18:29:07] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 25, 17, 29, 7, 151507, tzinfo=<UTC>)}}
+[25/Apr/2016 18:29:07] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[25/Apr/2016 18:29:07] WARNING [django.request:144] Not Found: /app/api-auth
+[25/Apr/2016 18:29:09] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 25, 17, 29, 9, 342426, tzinfo=<UTC>)}}
+[25/Apr/2016 18:29:09] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[25/Apr/2016 18:29:09] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 25, 17, 29, 9, 762251, tzinfo=<UTC>)}}
+[25/Apr/2016 18:29:09] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[25/Apr/2016 18:29:19] DEBUG [django.db.backends:70] app_measure.save (0.00) {'type': 2, 'fecha': u'2016-04-25 18:29:19.627855', '_id': ObjectId('571e53ef923d590366fb6f2d'), 'sensor': u'prueba', 'value': 7.0}
+[25/Apr/2016 18:29:19] DEBUG [django.db.backends:70] app_measure.save (0.00) {'sensor': u'prueba', 'fecha': u'2016-04-25 18:29:19.627855', 'value': 7.0, '_id': ObjectId('571e53ef923d590366fb6f2d'), 'type': 2}
+[25/Apr/2016 18:29:20] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 25, 17, 29, 20, 769207, tzinfo=<UTC>)}}
+[25/Apr/2016 18:29:20] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[25/Apr/2016 18:29:20] ERROR [django.request:210] Internal Server Error: /app/measureadd/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 58, in measureAdd
+    eventMeausure = event("medida Negativa", request.user.name)
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 205, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'name'
+[25/Apr/2016 18:29:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '6uv02ddwvhfh4wmuygni33p82yvigy0k', 'expire_date': {'$gt': datetime.datetime(2016, 4, 25, 17, 29, 45, 327674, tzinfo=<UTC>)}}
+[25/Apr/2016 18:29:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[25/Apr/2016 18:29:45] ERROR [django.request:210] Internal Server Error: /app/measureadd/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 59, in measureAdd
+    eventMeausure = event("medida Negativa",user.name)
+  File "/Library/Python/2.7/site-packages/django/utils/functional.py", line 205, in inner
+    return func(self._wrapped, *args)
+AttributeError: 'User' object has no attribute 'name'
+[25/Apr/2016 18:32:58] ERROR [django.request:210] Internal Server Error: /app/measureadd/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 58, in measureAdd
+    eventMeausure = event("medida Negativa")
+TypeError: 'module' object is not callable
+[25/Apr/2016 18:33:49] DEBUG [django.db.backends:70] app_measure.save (0.00) {'type': 2, 'fecha': u'2016-04-25 18:33:49.491002', '_id': ObjectId('571e54fd923d5903bbefafb7'), 'sensor': u'prueba', 'value': -1.0}
+[25/Apr/2016 18:33:49] DEBUG [django.db.backends:70] app_measure.save (0.00) {'sensor': u'prueba', 'fecha': u'2016-04-25 18:33:49.491002', 'value': -1.0, '_id': ObjectId('571e54fd923d5903bbefafb7'), 'type': 2}
+[25/Apr/2016 19:08:56] ERROR [django.request:210] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 338, in resolve
+    for pattern in self.url_patterns:
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 366, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 361, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/mysite/urls.py", line 6, in <module>
+    url(r'^app/', include('app.urls')),
+  File "/Library/Python/2.7/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/urls.py", line 2, in <module>
+    from app.views import *
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 5, in <module>
+    from  model import user, event
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/model/event.py", line 2
+    from pymongo import
+                      ^
+SyntaxError: invalid syntax
