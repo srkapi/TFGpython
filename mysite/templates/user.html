@@ -143,7 +143,10 @@
         $scope.deleteUser = function(userName){
             var name= "'"+userName +"'";
             $http.get("{% url 'deleteUser' %}", {params:{"user": userName }})
-            .then(function (response) { /* */ })
+            .then(function (response) { /* */ });
+
+
+            location.reload();
 
 
         }

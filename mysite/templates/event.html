@@ -1,2 +1,75 @@
 {% include "index.html" %}
 
+
+ <div id="page-wrapper">
+    <div class="row" >
+            <!-- /.col-lg-8 -->
+                <div class="col-lg-5" id="event">
+                    <div class="panel panel-success" >
+                        <div class="panel-heading">
+                            <i class="fa fa-bell fa-fw"></i> Event Measure
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body" id="bodyPanel">
+                            <div class="list-group">
+                                 {%  for event in data %}
+                                    <a href="#" class="list-group-item">
+                                        <i class="fa fa-gears fa-fw"></i> {{ event.description }}
+                                        <span class="pull-right text-muted small"><em>{{ event.dateEvent }}</em>
+                                        </span>
+                                    </a>
+                                 {% endfor %}
+
+                            </div>
+                            <!-- /.list-group -->
+
+                        </div>
+
+                    </div>
+                 </div>
+
+
+
+            <!-- /.col-lg-8 -->
+                <div class="col-lg-5" id="event">
+                    <div class="panel panel-info" >
+                        <div class="panel-heading">
+                            <i class="fa fa-bell fa-fw"></i> Event Measure
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body" id="bodyPanel">
+                            <div class="list-group">
+                                 {%  for event in dataUser %}
+                                    <a href="#" class="list-group-item" id="userList">
+                                        <i class="fa fa-user fa-fw"></i> {{ event.description }}
+                                        <span class="pull-right text-muted small"><em>{{ event.dateEvent }}</em>
+                                        </span>
+                                    </a>
+                                 {% endfor %}
+
+                            </div>
+                            <!-- /.list-group -->
+
+                        </div>
+
+                    </div>
+                 </div>
+
+    </div>
+ </div>
+
+{% include "footer.html" %}
+
+<style>
+     #event{
+        margin-top:50px;
+    }
+
+    #bodyPanel{
+        height: 24em;
+    }
+
+    #userList{
+        height: 4em;
+    }
+</style>

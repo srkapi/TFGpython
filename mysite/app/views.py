@@ -2,7 +2,8 @@
 from datetime import datetime
 
 from DaoMeause import connection
-from  model import user, event
+from model.user import user
+from model.event import event
 from DaoMeause.connection import *
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
@@ -25,7 +26,11 @@ logger = logging.getLogger(__name__)
 
 @login_required(login_url='login/')
 def index(request):
-    return render(request, 'index.html')
+    dao = daoEvent.daoEvent()
+    list = dao.getEvent(1)
+    listUser = dao.getEvent(2)
+    context = {'data':  list ,'dataUser':  listUser}
+    return render(request, 'event.html', context)
 
 
 
@@ -55,7 +60,7 @@ def measureAdd(request):
     sensor=request.GET['sensor']
     measure=request.GET['measure']
     if float(measure) < 0:
-        eventMeausure = event.event("medida Negativa",1)
+        eventMeausure = event("medida Negativa",1)
         dao = daoEvent.daoEvent()
         dao.saveEvent(eventMeausure)
         return HttpResponse("medida negativa")# Create your views here.
@@ -100,7 +105,7 @@ def user_new(request):
             newUser = User.objects.create_user(userName, userPass, userMail)
 
         userAdd = user(name, lastName, userMail, userPass, userName, adminBool, 1)
-        eventMeausure = event.event("Usuario con nombre: "+name +"ha sido insertado", 2)
+        eventMeausure = event("Usuario con nombre: "+name +" ha sido insertado", 2)
         dao = daoEvent.daoEvent()
         dao.saveEvent(eventMeausure)
         newUser.save()
@@ -129,9 +134,9 @@ def updateUser(request):
 
         userUpdate = user(name, lastName, userMail, userPass, userName, adminBool, int(activo))
         dao.updateUser(userUpdate)
-        eventMeausure = event.event("Usuario con nombre: "+name +"ha sido modificado", 3)
+        eventUser = event("Usuario con nombre: "+name +" ha sido modificado", 2)
         dao = daoEvent.daoEvent()
-        dao.saveEvent(eventMeausure)
+        dao.saveEvent(eventUser)
 
     return redirect('user')
 
@@ -143,9 +148,9 @@ def deleteUser(request):
     userdelete = user(" ", " ", " ", "", userGet," ",0)
     dao = userDao.daoUser()
     dao.deleteUser(userdelete)
-    eventMeausure = event.event("Usuario con nombre: "+userGet +"ha sido eliminado", 4)
+    eventUser = event("Usuario con nombre: "+userGet +" ha sido eliminado", 2)
     dao = daoEvent.daoEvent()
-    dao.saveEvent(eventMeausure)
+    dao.saveEvent(eventUser)
     return redirect('user')
 
 

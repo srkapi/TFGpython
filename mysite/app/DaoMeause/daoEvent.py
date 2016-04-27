@@ -12,11 +12,11 @@ class daoEvent():
 
     def getAllEvent(self):
         collection = self.conn.event()
-        return collection.find()
+        return collection.find().limit(5)
 
-    def getEvent(self,):
+    def getEvent(self, id):
         collection = self.conn.event()
-        return collection.find()
+        return collection.find({"idEvent": id}).limit(5)
 
 
 
