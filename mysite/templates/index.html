@@ -66,6 +66,8 @@
     <!-- Bootstrap Core JavaScript -->
     <script src="/static/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="/static/dist/js/sb-admin-2.js"></script>
+    <script src="https://rawgit.com/enyo/dropzone/master/dist/dropzone.js"></script>
+    <link rel="stylesheet" href="https://rawgit.com/enyo/dropzone/master/dist/dropzone.css">
 
 
 </head>
@@ -118,7 +120,7 @@
                         </li>
 
                         <li>
-                            <a href=""><i class="glyphicon glyphicon-user  glyphicon-file"></i> Sketch</a>
+                            <a href="{% url 'file' %}"><i class="glyphicon glyphicon-user  glyphicon-file"></i> Sketch</a>
                         </li>
                         <li>
                          <a href="#"><i class="glyphicon glyphicon-user fa-fw"></i>Users<span class="fa arrow"></span></a>

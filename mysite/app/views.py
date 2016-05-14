@@ -1,15 +1,21 @@
 
 from datetime import datetime
+import os
 
+from django.core.files.base import ContentFile
+
+from mysite import settings
 from DaoMeause import connection
 from model.user import user
 from model.event import event
+from model.file import file as fichero
 from DaoMeause.connection import *
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import *
 from pymongo import MongoClient
 from DaoMeause import daoEvent,userDao
+from DaoMeause import fileDao
 from django.contrib.auth.models import User
 from form import UserForm
 from models import Measure , Users
@@ -147,6 +153,32 @@ def deleteUser(request):
     dao = daoEvent.daoEvent()
     dao.saveEvent(eventUser)
     return redirect('user')
+
+def file(request):
+
+    if request.method == 'POST':
+        folder = request.path.replace("/", "_")
+        uploaded_filename = request.FILES['file'].name
+
+        # create the folder if it doesn't exist.
+        try:
+            os.mkdir(os.path.join(settings.MEDIA_ROOT, "kapitan"))
+        except:
+            pass
+
+
+        newFile = fichero(uploaded_filename)
+        dao = fileDao.fileDao()
+        dao.saveFile(newFile)
+    else:
+        dao = fileDao.fileDao()
+        list = dao.getAll()
+        context = {'data': list}
+        return render(request, 'file.html',context)
+
+
+
+
 
 
 

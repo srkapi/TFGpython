@@ -13,4 +13,5 @@ urlpatterns = [
     url(r'^user/new/', user_new, name='user_new'),
     url(r'^udpateUser/', updateUser, name='updateUser'),
     url(r'^deleteUser/', deleteUser, name='deleteUser'),
+    url(r'^file/', file, name='file')
 ]

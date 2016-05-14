@@ -32,3 +32,9 @@ class mongoDB():
         return collection
 
 
+    def file(self):
+        db = self.conn['project']
+        collection = db.app_file
+        return collection
+
+
