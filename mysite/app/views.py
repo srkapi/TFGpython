@@ -162,7 +162,7 @@ def file(request):
 
         # create the folder if it doesn't exist.
         try:
-            os.mkdir(os.path.join(settings.MEDIA_ROOT, "kapitan"))
+            os.mkdir(os.path.join(settings.MEDIA_ROOT, folder))
         except:
             pass
 
@@ -170,11 +170,11 @@ def file(request):
         newFile = fichero(uploaded_filename)
         dao = fileDao.fileDao()
         dao.saveFile(newFile)
-    else:
-        dao = fileDao.fileDao()
-        list = dao.getAll()
-        context = {'data': list}
-        return render(request, 'file.html',context)
+
+    dao = fileDao.fileDao()
+    list = dao.getAll()
+    context = {'data': list}
+    return render(request, 'file.html',context)
 
 
 
