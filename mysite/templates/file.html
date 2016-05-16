@@ -1,7 +1,6 @@
 {% include "index.html" %}
 
-
-    <div id="page-wrapper">
+<div id="page-wrapper">
 
 
  <div class="row">
@@ -11,21 +10,18 @@
                             Upload file
                         </div>
                         <div class="panel-body">
-                                <div id="dragandrophandler">Drag & Drop Files Here</div>
+                                <div id="dragandrophandler" >Drag & Drop Files Here</div>
                                 <br><br>
                                 <div id="status1"></div>
                                 {% csrf_token %}
                         </div>
-                        <div class="panel-footer">
-                            Panel Footer
-                        </div>
+
                     </div>
                 </div>
 
     </div>
 </div>
 
-     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 <script>
 
 
@@ -58,7 +54,7 @@ function sendFileToServer(formData,status)
         success: function(data){
             status.setProgress(100);
 
-            $("#status1").append("File upload Done<br>");
+
         }
     });
 

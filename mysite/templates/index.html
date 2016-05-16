@@ -108,17 +108,11 @@
             <div class="navbar-default sidebar" role="navigation">
                 <div class="sidebar-nav navbar-collapse">
                     <ul class="nav" id="side-menu">
-                        <li>
-                            <a href=""><i class=" glyphicon glyphicon-wrench fa-fw "></i> Arduinos</a>
-                        </li>
-                        <li>
-                            <a href=""><i class="glyphicon glyphicon-list fa-fw"></i> Interfaces</a>
-                        </li>
-                        {% if user.is_superuser == True %}
-                         <li>
-                            <a href=""><i class="glyphicon glyphicon-tint fa-fw"></i> Graphics</a>
-                        </li>
 
+                         <li>
+                            <a href="{% url 'measure' %}"><i class="glyphicon glyphicon-tint fa-fw"></i> Graphics</a>
+                        </li>
+                          {% if user.is_superuser == True %}
                         <li>
                             <a href="{% url 'file' %}"><i class="glyphicon glyphicon-user  glyphicon-file"></i> Sketch</a>
                         </li>
