@@ -157,14 +157,12 @@ def deleteUser(request):
 def file(request):
 
     if request.method == 'POST':
-        folder = request.path.replace("/", "_")
+       # folder = request.path.replace("/", "_")
         uploaded_filename = request.FILES['file'].name
-
+        if os.path.isfile('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino') == True:
+            os.remove('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino')
+        handle_uploaded_file(request.FILES['file'])
         # create the folder if it doesn't exist.
-        try:
-            os.mkdir(os.path.join(settings.MEDIA_ROOT, folder))
-        except:
-            pass
 
 
         newFile = fichero(uploaded_filename)
@@ -178,7 +176,10 @@ def file(request):
 
 
 
-
+def handle_uploaded_file(f):
+    with open('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino', 'wb+') as destination:
+        for chunk in f.chunks():
+            destination.write(chunk)
 
 
 
