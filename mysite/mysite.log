@@ -2100,3 +2100,629 @@ Traceback (most recent call last):
   File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 32, in index
     context['objects'] = User.objects.values('first_name','last_name','is_active')
 TypeError: 'module' object does not support item assignment
+[10/May/2016 18:06:24] WARNING [django.request:144] Not Found: /
+[10/May/2016 18:06:25] WARNING [django.request:144] Not Found: /favicon.ico
+[10/May/2016 18:06:25] WARNING [django.request:144] Not Found: /apple-touch-icon-precomposed.png
+[10/May/2016 18:06:25] WARNING [django.request:144] Not Found: /apple-touch-icon.png
+[10/May/2016 18:06:28] WARNING [django.request:144] Not Found: /
+[10/May/2016 18:06:28] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'c4u15sag4dw9j0pb4256n9r6da1121wu', 'expire_date': {'$gt': datetime.datetime(2016, 5, 10, 17, 6, 28, 536264, tzinfo=<UTC>)}}
+[10/May/2016 18:06:28] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[10/May/2016 18:06:30] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'c4u15sag4dw9j0pb4256n9r6da1121wu', 'expire_date': {'$gt': datetime.datetime(2016, 5, 10, 17, 6, 30, 884434, tzinfo=<UTC>)}}
+[10/May/2016 18:06:30] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[10/May/2016 18:06:31] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'c4u15sag4dw9j0pb4256n9r6da1121wu', 'expire_date': {'$gt': datetime.datetime(2016, 5, 10, 17, 6, 31, 7523, tzinfo=<UTC>)}}
+[10/May/2016 18:06:31] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[10/May/2016 18:20:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'c4u15sag4dw9j0pb4256n9r6da1121wu', 'expire_date': {'$gt': datetime.datetime(2016, 5, 10, 17, 20, 33, 161836, tzinfo=<UTC>)}}
+[10/May/2016 18:20:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 19:52:11] ERROR [django.request:210] Internal Server Error: /
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 338, in resolve
+    for pattern in self.url_patterns:
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 366, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 361, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/mysite/urls.py", line 6, in <module>
+    url(r'^app/', include('app.urls')),
+  File "/Library/Python/2.7/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/urls.py", line 2, in <module>
+    from app.views import *
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 168
+    pass
+       ^
+IndentationError: expected an indented block
+[13/May/2016 19:52:12] ERROR [django.request:210] Internal Server Error: /app/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 338, in resolve
+    for pattern in self.url_patterns:
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 366, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 361, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/mysite/urls.py", line 6, in <module>
+    url(r'^app/', include('app.urls')),
+  File "/Library/Python/2.7/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/urls.py", line 2, in <module>
+    from app.views import *
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 168
+    pass
+       ^
+IndentationError: expected an indented block
+[13/May/2016 19:52:13] ERROR [django.request:210] Internal Server Error: /app/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 101, in get_response
+    resolver_match = resolver.resolve(request.path_info)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 338, in resolve
+    for pattern in self.url_patterns:
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 366, in url_patterns
+    patterns = getattr(self.urlconf_module, "urlpatterns", self.urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/core/urlresolvers.py", line 361, in urlconf_module
+    self._urlconf_module = import_module(self.urlconf_name)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/mysite/urls.py", line 6, in <module>
+    url(r'^app/', include('app.urls')),
+  File "/Library/Python/2.7/site-packages/django/conf/urls/__init__.py", line 25, in include
+    urlconf_module = import_module(urlconf_module)
+  File "/Library/Python/2.7/site-packages/django/utils/importlib.py", line 35, in import_module
+    __import__(name)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/urls.py", line 2, in <module>
+    from app.views import *
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 168
+    pass
+       ^
+IndentationError: expected an indented block
+[13/May/2016 19:52:46] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'xhn1pwf6dmg71vb8tdbyu2y1dcfppqft', 'expire_date': datetime.datetime(2016, 5, 27, 18, 52, 46, 655701, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:52:46] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'xhn1pwf6dmg71vb8tdbyu2y1dcfppqft', 'expire_date': datetime.datetime(2016, 5, 27, 18, 52, 46, 686864, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'xhn1pwf6dmg71vb8tdbyu2y1dcfppqft', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 52, 51, 273023, tzinfo=<UTC>)}}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'xhn1pwf6dmg71vb8tdbyu2y1dcfppqft'}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'xhn1pwf6dmg71vb8tdbyu2y1dcfppqft']}}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'a3hl7yakcj7iuq3xvgc5g8uj1wsd5tum', 'expire_date': datetime.datetime(2016, 5, 27, 18, 52, 51, 279986, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'pablito'}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'64akfus8g8gi61mi8jrpgwj1mab1udnc', 'expire_date': datetime.datetime(2016, 5, 27, 18, 52, 51, 333679, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'a3hl7yakcj7iuq3xvgc5g8uj1wsd5tum'}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'a3hl7yakcj7iuq3xvgc5g8uj1wsd5tum']}}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'pablito', 'first_name': u'', 'last_name': u'', '_id': ObjectId('5717be09923d59031ba3ab32'), 'is_active': True, 'email': u'asg@asdf', 'is_superuser': False, 'is_staff': True, 'last_login': datetime.datetime(2016, 5, 13, 18, 52, 51, 337853, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$n62xCW9eP0vc$Qlgx7TFoS0kAp6FGlta4BMUO47ktrJq4oncIQhxWFSs=', 'date_joined': datetime.datetime(2016, 4, 20, 14, 36, 9, 558000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'64akfus8g8gi61mi8jrpgwj1mab1udnc', 'expire_date': datetime.datetime(2016, 5, 27, 18, 52, 51, 354406, tzinfo=<UTC>), 'session_data': u'OTg4YTBmNjM0ZDk1OTQxZjBiMGMxYjNiZTk2N2EzYTE4NjNjOGZjZTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU3MTdiZTA5OTIzZDU5MDMxYmEzYWIzMiJ9'}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '64akfus8g8gi61mi8jrpgwj1mab1udnc', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 52, 51, 361668, tzinfo=<UTC>)}}
+[13/May/2016 19:52:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[13/May/2016 19:52:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '64akfus8g8gi61mi8jrpgwj1mab1udnc', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 52, 57, 651630, tzinfo=<UTC>)}}
+[13/May/2016 19:52:57] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('5717be09923d59031ba3ab32')}
+[13/May/2016 19:52:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '64akfus8g8gi61mi8jrpgwj1mab1udnc'}
+[13/May/2016 19:52:57] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'64akfus8g8gi61mi8jrpgwj1mab1udnc']}}
+[13/May/2016 19:52:57] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'3kgrb0k366ybs7bwxnqgczb6qg0q6g48', 'expire_date': datetime.datetime(2016, 5, 27, 18, 52, 57, 659173, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:52:57] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'3kgrb0k366ybs7bwxnqgczb6qg0q6g48', 'expire_date': datetime.datetime(2016, 5, 27, 18, 52, 57, 661429, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3kgrb0k366ybs7bwxnqgczb6qg0q6g48', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 53, 0, 528857, tzinfo=<UTC>)}}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3kgrb0k366ybs7bwxnqgczb6qg0q6g48'}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'3kgrb0k366ybs7bwxnqgczb6qg0q6g48']}}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'7fewnrvpbwcbak5pdh2kvoh99nfq36l2', 'expire_date': datetime.datetime(2016, 5, 27, 18, 53, 0, 535786, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'sr.kapi'}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': datetime.datetime(2016, 5, 27, 18, 53, 0, 588941, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'7fewnrvpbwcbak5pdh2kvoh99nfq36l2'}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'7fewnrvpbwcbak5pdh2kvoh99nfq36l2']}}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'sr.kapi', 'first_name': u'', 'last_name': u'', '_id': ObjectId('56e077ac923d590b9d86f899'), 'is_active': True, 'email': u'albertowas12@hotmail.com', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 5, 13, 18, 53, 0, 593225, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$rtL1RKAlaFik$y38g8sYToNKaPCWxnekri2SWIPrCdWaE162nkbAQ4vg=', 'date_joined': datetime.datetime(2016, 3, 8, 22, 21, 16, 645000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': datetime.datetime(2016, 5, 27, 18, 53, 0, 594565, tzinfo=<UTC>), 'session_data': u'MDliZGNmY2QzMzgyNDIxNWY1MTI1NDM4MGU2MTNhOTU2Njk2NDBkYTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU2ZTA3N2FjOTIzZDU5MGI5ZDg2Zjg5OSJ9'}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 53, 0, 601374, tzinfo=<UTC>)}}
+[13/May/2016 19:53:00] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 19:53:02] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 53, 2, 168990, tzinfo=<UTC>)}}
+[13/May/2016 19:53:02] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 19:53:02] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 185, in file
+    list = dao.getAll()
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/DaoMeause/fileDao.py", line 21, in getAll
+    return collection.find()
+NameError: global name 'collection' is not defined
+[13/May/2016 19:57:50] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 57, 50, 238685, tzinfo=<UTC>)}}
+[13/May/2016 19:57:50] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 19:58:23] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'mkvadpm0kmavlgb93s632n2rb38spdrb', 'expire_date': datetime.datetime(2016, 5, 27, 18, 58, 23, 551376, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:58:23] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'mkvadpm0kmavlgb93s632n2rb38spdrb', 'expire_date': datetime.datetime(2016, 5, 27, 18, 58, 23, 554016, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:58:23] WARNING [django.request:144] Not Found: /favicon.ico
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'mkvadpm0kmavlgb93s632n2rb38spdrb', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 58, 26, 570934, tzinfo=<UTC>)}}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'mkvadpm0kmavlgb93s632n2rb38spdrb'}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'mkvadpm0kmavlgb93s632n2rb38spdrb']}}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'27wfqx38j22mc0hlt3oor82966j9cdm9', 'expire_date': datetime.datetime(2016, 5, 27, 18, 58, 26, 580253, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'sr.kapi'}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': datetime.datetime(2016, 5, 27, 18, 58, 26, 638320, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'27wfqx38j22mc0hlt3oor82966j9cdm9'}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'27wfqx38j22mc0hlt3oor82966j9cdm9']}}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'sr.kapi', 'first_name': u'', 'last_name': u'', '_id': ObjectId('56e077ac923d590b9d86f899'), 'is_active': True, 'email': u'albertowas12@hotmail.com', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 5, 13, 18, 58, 26, 641928, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$rtL1RKAlaFik$y38g8sYToNKaPCWxnekri2SWIPrCdWaE162nkbAQ4vg=', 'date_joined': datetime.datetime(2016, 3, 8, 21, 21, 16, 645000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': datetime.datetime(2016, 5, 27, 18, 58, 26, 644023, tzinfo=<UTC>), 'session_data': u'MDliZGNmY2QzMzgyNDIxNWY1MTI1NDM4MGU2MTNhOTU2Njk2NDBkYTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU2ZTA3N2FjOTIzZDU5MGI5ZDg2Zjg5OSJ9'}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 58, 26, 649051, tzinfo=<UTC>)}}
+[13/May/2016 19:58:26] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 19:58:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 58, 33, 334457, tzinfo=<UTC>)}}
+[13/May/2016 19:58:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 19:58:38] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 58, 38, 139906, tzinfo=<UTC>)}}
+[13/May/2016 19:58:38] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 19:59:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 18, 59, 26, 175794, tzinfo=<UTC>)}}
+[13/May/2016 19:59:26] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 20:02:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 19, 2, 45, 825946, tzinfo=<UTC>)}}
+[13/May/2016 20:02:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 20:02:53] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 19, 2, 53, 512043, tzinfo=<UTC>)}}
+[13/May/2016 20:02:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[13/May/2016 20:34:12] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 13, 19, 34, 12, 883654, tzinfo=<UTC>)}}
+[13/May/2016 20:34:12] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:11:52] WARNING [django.request:144] Not Found: /
+[14/May/2016 10:11:53] DEBUG [django.db.backends:70] django_session.find (0.01) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 11, 53, 97845, tzinfo=<UTC>)}}
+[14/May/2016 10:11:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:11:57] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 11, 57, 215646, tzinfo=<UTC>)}}
+[14/May/2016 10:11:57] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:14:49] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 14, 49, 206717, tzinfo=<UTC>)}}
+[14/May/2016 10:14:49] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:38:07] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 38, 7, 197646, tzinfo=<UTC>)}}
+[14/May/2016 10:38:07] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:38:07] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Library/Python/2.7/site-packages/django/contrib/auth/decorators.py", line 25, in _wrapped_view
+    return view_func(request, *args, **kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 187, in file
+    return render(request, 'file.html',context)
+  File "/Library/Python/2.7/site-packages/django/shortcuts/__init__.py", line 53, in render
+    return HttpResponse(loader.render_to_string(*args, **kwargs),
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 170, in render_to_string
+    t = get_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 146, in get_template
+    template, origin = find_template(template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 135, in find_template
+    source, display_name = loader(name, dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 43, in __call__
+    return self.load_template(template_name, template_dirs)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 49, in load_template
+    template = get_template_from_string(source, origin, template_name)
+  File "/Library/Python/2.7/site-packages/django/template/loader.py", line 157, in get_template_from_string
+    return Template(source, origin, name)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 125, in __init__
+    self.nodelist = compile_string(template_string, origin)
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 153, in compile_string
+    return parser.parse()
+  File "/Library/Python/2.7/site-packages/django/template/base.py", line 274, in parse
+    compiled_result = compile_func(self, token)
+  File "/Library/Python/2.7/site-packages/django/template/defaulttags.py", line 1266, in url
+    " (path to a view)" % bits[0])
+TemplateSyntaxError: 'url' takes at least one argument (path to a view)
+[14/May/2016 10:38:21] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 38, 21, 137284, tzinfo=<UTC>)}}
+[14/May/2016 10:38:21] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:38:50] WARNING [django.request:144] Not Found: /
+[14/May/2016 10:38:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 38, 51, 49040, tzinfo=<UTC>)}}
+[14/May/2016 10:38:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:38:53] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 38, 53, 310032, tzinfo=<UTC>)}}
+[14/May/2016 10:38:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:44:27] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 44, 27, 868434, tzinfo=<UTC>)}}
+[14/May/2016 10:44:27] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:49:10] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 49, 10, 917023, tzinfo=<UTC>)}}
+[14/May/2016 10:49:10] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 10:49:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 9, 49, 39, 827960, tzinfo=<UTC>)}}
+[14/May/2016 10:49:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:03:27] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 3, 27, 363215, tzinfo=<UTC>)}}
+[14/May/2016 11:03:27] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:03:35] WARNING [django.request:144] Not Found: /
+[14/May/2016 11:03:36] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 3, 36, 277580, tzinfo=<UTC>)}}
+[14/May/2016 11:03:36] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:03:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 3, 39, 793778, tzinfo=<UTC>)}}
+[14/May/2016 11:03:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:03:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 3, 56, 165400, tzinfo=<UTC>)}}
+[14/May/2016 11:03:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:03:59] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:05:44] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 5, 44, 751716, tzinfo=<UTC>)}}
+[14/May/2016 11:05:44] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:05:46] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 5, 46, 747588, tzinfo=<UTC>)}}
+[14/May/2016 11:05:46] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:05:50] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:07:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 7, 51, 314745, tzinfo=<UTC>)}}
+[14/May/2016 11:07:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:07:53] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:08:02] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 8, 2, 798846, tzinfo=<UTC>)}}
+[14/May/2016 11:08:02] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:09:32] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 9, 32, 177401, tzinfo=<UTC>)}}
+[14/May/2016 11:09:32] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:09:35] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 9, 35, 251485, tzinfo=<UTC>)}}
+[14/May/2016 11:09:35] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:16:43] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 16, 43, 482001, tzinfo=<UTC>)}}
+[14/May/2016 11:16:43] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:16:46] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/127.0.0.1:8000/app/file/
+[14/May/2016 11:17:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 17, 26, 862992, tzinfo=<UTC>)}}
+[14/May/2016 11:17:26] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:17:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 17, 39, 315260, tzinfo=<UTC>)}}
+[14/May/2016 11:17:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:18:21] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 18, 21, 225212, tzinfo=<UTC>)}}
+[14/May/2016 11:18:21] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:18:44] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 18, 44, 578392, tzinfo=<UTC>)}}
+[14/May/2016 11:18:44] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:18:59] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 18, 59, 575084, tzinfo=<UTC>)}}
+[14/May/2016 11:18:59] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:19:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 19, 1, 908335, tzinfo=<UTC>)}}
+[14/May/2016 11:19:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:19:19] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 19, 19, 970970, tzinfo=<UTC>)}}
+[14/May/2016 11:19:19] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:19:23] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 19, 23, 84779, tzinfo=<UTC>)}}
+[14/May/2016 11:19:23] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:19:25] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/file/
+[14/May/2016 11:19:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 19, 42, 785170, tzinfo=<UTC>)}}
+[14/May/2016 11:19:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:19:46] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/app/file/
+[14/May/2016 11:19:50] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 19, 50, 275306, tzinfo=<UTC>)}}
+[14/May/2016 11:19:50] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:19:57] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/app/file/
+[14/May/2016 11:20:40] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 20, 40, 305279, tzinfo=<UTC>)}}
+[14/May/2016 11:20:40] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:20:46] WARNING [django.request:144] Not Found: /
+[14/May/2016 11:21:35] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 21, 35, 939149, tzinfo=<UTC>)}}
+[14/May/2016 11:21:35] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:21:38] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:21:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 21, 42, 941964, tzinfo=<UTC>)}}
+[14/May/2016 11:21:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:23:06] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 23, 6, 988507, tzinfo=<UTC>)}}
+[14/May/2016 11:23:06] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:23:11] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 23, 11, 548789, tzinfo=<UTC>)}}
+[14/May/2016 11:23:11] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:23:14] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:23:35] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 23, 35, 862147, tzinfo=<UTC>)}}
+[14/May/2016 11:23:35] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:23:38] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 23, 38, 660587, tzinfo=<UTC>)}}
+[14/May/2016 11:23:38] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:23:44] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:24:58] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 24, 58, 637951, tzinfo=<UTC>)}}
+[14/May/2016 11:24:58] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:25:03] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:30:50] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 30, 50, 324785, tzinfo=<UTC>)}}
+[14/May/2016 11:30:50] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:30:54] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 30, 54, 205108, tzinfo=<UTC>)}}
+[14/May/2016 11:30:54] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:31:02] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:35:50] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:35:58] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 35, 58, 975808, tzinfo=<UTC>)}}
+[14/May/2016 11:35:58] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:36:10] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:43:04] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 43, 4, 715426, tzinfo=<UTC>)}}
+[14/May/2016 11:43:04] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:43:11] WARNING [django.request:197] Forbidden (CSRF token missing or incorrect.): /app/file/
+[14/May/2016 11:45:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 45, 15, 835040, tzinfo=<UTC>)}}
+[14/May/2016 11:45:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:45:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 45, 17, 77446, tzinfo=<UTC>)}}
+[14/May/2016 11:45:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:45:23] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 45, 23, 650270, tzinfo=<UTC>)}}
+[14/May/2016 11:45:23] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:46:21] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 46, 21, 40375, tzinfo=<UTC>)}}
+[14/May/2016 11:46:21] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:50:22] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 50, 22, 11747, tzinfo=<UTC>)}}
+[14/May/2016 11:50:22] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:50:46] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 50, 46, 217623, tzinfo=<UTC>)}}
+[14/May/2016 11:50:46] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:51:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 51, 39, 610210, tzinfo=<UTC>)}}
+[14/May/2016 11:51:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:52:54] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 52, 54, 509165, tzinfo=<UTC>)}}
+[14/May/2016 11:52:54] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:52:59] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 171, in file
+    fout = open(full_filename, 'wb+')
+IOError: [Errno 2] No such file or directory: u'/Users/sr.kapi/Documents/TFG/mysite/mysite/media/_app_file_/RxJava Essentials [eBook].pdf'
+[14/May/2016 11:55:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 55, 33, 305143, tzinfo=<UTC>)}}
+[14/May/2016 11:55:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:55:37] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 163, in file
+    newFile = file(uploaded_filename ,datetime.now())
+TypeError: file() takes exactly 1 argument (2 given)
+[14/May/2016 11:56:27] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 56, 27, 950821, tzinfo=<UTC>)}}
+[14/May/2016 11:56:27] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:56:30] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 163, in file
+    newFile = file("hole" ,datetime.now())
+TypeError: file() takes exactly 1 argument (2 given)
+[14/May/2016 11:58:24] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 10, 58, 24, 526482, tzinfo=<UTC>)}}
+[14/May/2016 11:58:24] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 11:58:31] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 163, in file
+    newFile = file("hole" )
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 159, in file
+    if request.method == 'POST':
+AttributeError: 'str' object has no attribute 'method'
+[14/May/2016 12:00:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 0, 13, 293004, tzinfo=<UTC>)}}
+[14/May/2016 12:00:13] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:00:16] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 162, in file
+    newFile = file("hole")
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 159, in file
+    if request.method == 'POST':
+AttributeError: 'str' object has no attribute 'method'
+[14/May/2016 12:01:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 1, 45, 317217, tzinfo=<UTC>)}}
+[14/May/2016 12:01:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:01:52] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 1, 52, 888873, tzinfo=<UTC>)}}
+[14/May/2016 12:01:52] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:01:55] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 162, in file
+    newFile = file()
+TypeError: file() takes exactly 1 argument (0 given)
+[14/May/2016 12:03:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 3, 42, 908888, tzinfo=<UTC>)}}
+[14/May/2016 12:03:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:03:59] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 163, in file
+    dao = fileDao.fileDao(newFile)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[14/May/2016 12:04:21] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 4, 21, 779874, tzinfo=<UTC>)}}
+[14/May/2016 12:04:21] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:04:24] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 163, in file
+    dao = fileDao.fileDao(newFile)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[14/May/2016 12:05:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 5, 45, 741464, tzinfo=<UTC>)}}
+[14/May/2016 12:05:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:05:50] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 163, in file
+    dao = fileDao.fileDao(newFile)
+TypeError: __init__() takes exactly 1 argument (2 given)
+[14/May/2016 12:06:45] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 6, 45, 230623, tzinfo=<UTC>)}}
+[14/May/2016 12:06:45] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:06:49] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 6, 49, 511878, tzinfo=<UTC>)}}
+[14/May/2016 12:06:49] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:10:43] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 10, 43, 638545, tzinfo=<UTC>)}}
+[14/May/2016 12:10:43] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:10:47] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 171, in file
+    fout = open(full_filename, 'wb+')
+IOError: [Errno 2] No such file or directory: u'/Users/sr.kapi/Documents/TFG/mysite/mysite/media/_app_file_/RxJava Essentials [eBook].pdf'
+[14/May/2016 12:13:04] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 13, 4, 434694, tzinfo=<UTC>)}}
+[14/May/2016 12:13:04] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:13:09] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 131, in get_response
+    raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+ValueError: The view app.views.file didn't return an HttpResponse object.
+[14/May/2016 12:14:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 14, 39, 139629, tzinfo=<UTC>)}}
+[14/May/2016 12:14:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:14:43] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 131, in get_response
+    raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+ValueError: The view app.views.file didn't return an HttpResponse object.
+[14/May/2016 12:16:32] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 11, 16, 32, 848999, tzinfo=<UTC>)}}
+[14/May/2016 12:16:32] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 12:16:36] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 131, in get_response
+    raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+ValueError: The view app.views.file didn't return an HttpResponse object.
+[14/May/2016 12:17:25] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 131, in get_response
+    raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+ValueError: The view app.views.file didn't return an HttpResponse object.
+[14/May/2016 13:13:04] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 12, 13, 4, 160766, tzinfo=<UTC>)}}
+[14/May/2016 13:13:04] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 13:13:10] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 131, in get_response
+    raise ValueError("The view %s.%s didn't return an HttpResponse object." % (callback.__module__, view_name))
+ValueError: The view app.views.file didn't return an HttpResponse object.
+[14/May/2016 13:13:53] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 12, 13, 53, 369961, tzinfo=<UTC>)}}
+[14/May/2016 13:13:53] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 13:13:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 12, 13, 56, 767075, tzinfo=<UTC>)}}
+[14/May/2016 13:13:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 19:07:44] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'4rjl1mbreqbxcvx3qeul3pht03x1p3ft', 'expire_date': datetime.datetime(2016, 5, 28, 18, 7, 44, 871168, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[14/May/2016 19:07:44] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'4rjl1mbreqbxcvx3qeul3pht03x1p3ft', 'expire_date': datetime.datetime(2016, 5, 28, 18, 7, 44, 902093, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[14/May/2016 19:07:44] WARNING [django.request:144] Not Found: /apple-touch-icon-precomposed.png
+[14/May/2016 19:07:44] WARNING [django.request:144] Not Found: /favicon.ico
+[14/May/2016 19:07:44] WARNING [django.request:144] Not Found: /apple-touch-icon.png
+[14/May/2016 19:07:44] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'km0odnh8evvu1uxgu5e782octyw3xx3u', 'expire_date': datetime.datetime(2016, 5, 28, 18, 7, 44, 985961, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[14/May/2016 19:07:44] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'km0odnh8evvu1uxgu5e782octyw3xx3u', 'expire_date': datetime.datetime(2016, 5, 28, 18, 7, 44, 989675, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[14/May/2016 19:07:45] WARNING [django.request:144] Not Found: /apple-touch-icon-precomposed.png
+[14/May/2016 19:07:45] WARNING [django.request:144] Not Found: /apple-touch-icon.png
+[14/May/2016 19:22:28] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 14, 18, 22, 28, 529567, tzinfo=<UTC>)}}
+[14/May/2016 19:22:28] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[14/May/2016 19:22:30] WARNING [django.request:144] Not Found: /favicon.ico
+[14/May/2016 19:22:30] WARNING [django.request:144] Not Found: /apple-touch-icon-precomposed.png
+[14/May/2016 19:22:30] WARNING [django.request:144] Not Found: /apple-touch-icon.png
+[15/May/2016 18:07:22] WARNING [django.request:144] Not Found: /
+[15/May/2016 18:07:23] DEBUG [django.db.backends:70] django_session.find (0.01) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 7, 23, 562251, tzinfo=<UTC>)}}
+[15/May/2016 18:07:23] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:19:54] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 19, 54, 989453, tzinfo=<UTC>)}}
+[15/May/2016 18:19:54] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:20:24] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 20, 24, 443598, tzinfo=<UTC>)}}
+[15/May/2016 18:20:24] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:08] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 8, 688372, tzinfo=<UTC>)}}
+[15/May/2016 18:22:08] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:11] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 11, 898576, tzinfo=<UTC>)}}
+[15/May/2016 18:22:11] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:12] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 12, 660195, tzinfo=<UTC>)}}
+[15/May/2016 18:22:12] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:12] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 12, 761920, tzinfo=<UTC>)}}
+[15/May/2016 18:22:12] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 17, 845990, tzinfo=<UTC>)}}
+[15/May/2016 18:22:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:23] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 23, 495910, tzinfo=<UTC>)}}
+[15/May/2016 18:22:23] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:48] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 48, 730639, tzinfo=<UTC>)}}
+[15/May/2016 18:22:48] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:49] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 49, 16404, tzinfo=<UTC>)}}
+[15/May/2016 18:22:49] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 51, 263678, tzinfo=<UTC>)}}
+[15/May/2016 18:22:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:22:51] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 22, 51, 546736, tzinfo=<UTC>)}}
+[15/May/2016 18:22:51] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:23:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 23, 33, 224740, tzinfo=<UTC>)}}
+[15/May/2016 18:23:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[15/May/2016 18:23:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 15, 17, 23, 39, 349188, tzinfo=<UTC>)}}
+[15/May/2016 18:23:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:01:15] WARNING [django.request:144] Not Found: /
+[16/May/2016 17:01:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 1, 17, 45969, tzinfo=<UTC>)}}
+[16/May/2016 17:01:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:01:21] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 1, 21, 993431, tzinfo=<UTC>)}}
+[16/May/2016 17:01:21] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:01:28] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 1, 28, 48094, tzinfo=<UTC>)}}
+[16/May/2016 17:01:28] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:03:17] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 3, 17, 860814, tzinfo=<UTC>)}}
+[16/May/2016 17:03:17] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:03:18] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 3, 18, 176282, tzinfo=<UTC>)}}
+[16/May/2016 17:03:18] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:03:19] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 3, 19, 28198, tzinfo=<UTC>)}}
+[16/May/2016 17:03:19] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:04:05] WARNING [django.request:144] Not Found: /app/static/fileUpload/name.txt
+[16/May/2016 17:08:31] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 162, in file
+    os.remove('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino')
+OSError: [Errno 2] No such file or directory: '/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino'
+[16/May/2016 17:09:08] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 162, in file
+    os.remove('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino')
+OSError: [Errno 2] No such file or directory: '/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino'
+[16/May/2016 17:09:11] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 9, 11, 444180, tzinfo=<UTC>)}}
+[16/May/2016 17:09:11] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:09:14] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 162, in file
+    os.remove('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino')
+OSError: [Errno 2] No such file or directory: '/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino'
+[16/May/2016 17:10:32] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 10, 32, 275743, tzinfo=<UTC>)}}
+[16/May/2016 17:10:32] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:10:33] WARNING [django.request:144] Not Found: /favicon.ico
+[16/May/2016 17:10:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 10, 33, 818268, tzinfo=<UTC>)}}
+[16/May/2016 17:10:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:10:40] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 162, in file
+    os.remove('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino')
+OSError: [Errno 2] No such file or directory: '/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino'
+[16/May/2016 17:11:00] ERROR [django.request:210] Internal Server Error: /app/file/
+Traceback (most recent call last):
+  File "/Library/Python/2.7/site-packages/django/core/handlers/base.py", line 113, in get_response
+    response = callback(request, *callback_args, **callback_kwargs)
+  File "/Users/sr.kapi/Documents/TFG/mysite/app/views.py", line 162, in file
+    os.remove('/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino')
+OSError: [Errno 2] No such file or directory: '/Users/sr.kapi/Documents/TFG/mysite/fileUpload/sckech.ino'
+[16/May/2016 17:12:59] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 12, 59, 875145, tzinfo=<UTC>)}}
+[16/May/2016 17:12:59] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:13:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 13, 1, 976015, tzinfo=<UTC>)}}
+[16/May/2016 17:13:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:13:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 13, 15, 176743, tzinfo=<UTC>)}}
+[16/May/2016 17:13:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:14:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 14, 39, 927585, tzinfo=<UTC>)}}
+[16/May/2016 17:14:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:14:42] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 14, 42, 888080, tzinfo=<UTC>)}}
+[16/May/2016 17:14:42] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:21:01] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 21, 1, 420357, tzinfo=<UTC>)}}
+[16/May/2016 17:21:01] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:21:10] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 21, 10, 661003, tzinfo=<UTC>)}}
+[16/May/2016 17:21:10] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:21:15] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 21, 15, 754681, tzinfo=<UTC>)}}
+[16/May/2016 17:21:15] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:21:28] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 21, 28, 609551, tzinfo=<UTC>)}}
+[16/May/2016 17:21:28] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:21:39] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 21, 39, 856137, tzinfo=<UTC>)}}
+[16/May/2016 17:21:39] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:21:48] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 21, 48, 368797, tzinfo=<UTC>)}}
+[16/May/2016 17:21:48] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:21:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 21, 56, 798615, tzinfo=<UTC>)}}
+[16/May/2016 17:21:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:22:02] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 22, 2, 613017, tzinfo=<UTC>)}}
+[16/May/2016 17:22:02] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:23:00] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 23, 0, 197857, tzinfo=<UTC>)}}
+[16/May/2016 17:23:00] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:23:05] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 23, 5, 315406, tzinfo=<UTC>)}}
+[16/May/2016 17:23:05] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:46:10] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'myj4kwdt8gd8g21nmgwrzakyq9h1rcwe', 'expire_date': datetime.datetime(2016, 5, 30, 16, 46, 10, 81174, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[16/May/2016 17:46:10] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'myj4kwdt8gd8g21nmgwrzakyq9h1rcwe', 'expire_date': datetime.datetime(2016, 5, 30, 16, 46, 10, 87700, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[16/May/2016 17:46:10] WARNING [django.request:144] Not Found: /favicon.ico
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'myj4kwdt8gd8g21nmgwrzakyq9h1rcwe', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 46, 13, 232553, tzinfo=<UTC>)}}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'myj4kwdt8gd8g21nmgwrzakyq9h1rcwe'}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'myj4kwdt8gd8g21nmgwrzakyq9h1rcwe']}}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'ratzle00v8pewo8jgbnjkytes0lgka53', 'expire_date': datetime.datetime(2016, 5, 30, 16, 46, 13, 238919, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] auth_user.find (0.00) {'username': u'sr.kapi'}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'b2oovs40tohnszzvbhrhj9rry2gx2hhc', 'expire_date': datetime.datetime(2016, 5, 30, 16, 46, 13, 291895, tzinfo=<UTC>), 'session_data': u'NzRiODI0NDY4MDU4NGY1MjAyZWVkMzRjN2E4MGU5ZDhiMzRmNTkyNTp7fQ=='}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': u'ratzle00v8pewo8jgbnjkytes0lgka53'}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.remove (0.00) {'_id': {'$in': [u'ratzle00v8pewo8jgbnjkytes0lgka53']}}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] auth_user.save (0.00) {'username': u'sr.kapi', 'first_name': u'', 'last_name': u'', '_id': ObjectId('56e077ac923d590b9d86f899'), 'is_active': True, 'email': u'albertowas12@hotmail.com', 'is_superuser': True, 'is_staff': True, 'last_login': datetime.datetime(2016, 5, 16, 16, 46, 13, 294560, tzinfo=<UTC>), 'password': u'pbkdf2_sha256$10000$rtL1RKAlaFik$y38g8sYToNKaPCWxnekri2SWIPrCdWaE162nkbAQ4vg=', 'date_joined': datetime.datetime(2016, 3, 8, 20, 21, 16, 645000, tzinfo=<StaticTzInfo 'Etc/GMT-1'>)}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.save (0.00) {'_id': u'b2oovs40tohnszzvbhrhj9rry2gx2hhc', 'expire_date': datetime.datetime(2016, 5, 30, 16, 46, 13, 297548, tzinfo=<UTC>), 'session_data': u'MDliZGNmY2QzMzgyNDIxNWY1MTI1NDM4MGU2MTNhOTU2Njk2NDBkYTp7Il9hdXRoX3VzZXJfYmFja2VuZCI6ImRqYW5nby5jb250cmliLmF1dGguYmFja2VuZHMuTW9kZWxCYWNrZW5kIiwiX2F1dGhfdXNlcl9pZCI6IjU2ZTA3N2FjOTIzZDU5MGI5ZDg2Zjg5OSJ9'}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'b2oovs40tohnszzvbhrhj9rry2gx2hhc', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 46, 13, 303438, tzinfo=<UTC>)}}
+[16/May/2016 17:46:13] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:46:30] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 46, 30, 669045, tzinfo=<UTC>)}}
+[16/May/2016 17:46:30] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:46:56] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 46, 56, 55405, tzinfo=<UTC>)}}
+[16/May/2016 17:46:56] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:47:11] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 47, 11, 673704, tzinfo=<UTC>)}}
+[16/May/2016 17:47:11] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:47:36] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 47, 36, 917191, tzinfo=<UTC>)}}
+[16/May/2016 17:47:36] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:49:59] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 49, 59, 39851, tzinfo=<UTC>)}}
+[16/May/2016 17:49:59] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:50:21] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'b2oovs40tohnszzvbhrhj9rry2gx2hhc', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 50, 21, 52949, tzinfo=<UTC>)}}
+[16/May/2016 17:50:21] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:50:44] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'b2oovs40tohnszzvbhrhj9rry2gx2hhc', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 50, 44, 127038, tzinfo=<UTC>)}}
+[16/May/2016 17:50:44] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:51:18] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 51, 18, 761527, tzinfo=<UTC>)}}
+[16/May/2016 17:51:18] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:51:46] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': '3lwow46gh1a06ssgo50429muriammwsq', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 51, 46, 988353, tzinfo=<UTC>)}}
+[16/May/2016 17:51:46] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:52:33] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 52, 33, 814407, tzinfo=<UTC>)}}
+[16/May/2016 17:52:33] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:55:16] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'b2oovs40tohnszzvbhrhj9rry2gx2hhc', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 55, 16, 517204, tzinfo=<UTC>)}}
+[16/May/2016 17:55:16] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:55:26] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'b2oovs40tohnszzvbhrhj9rry2gx2hhc', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 55, 26, 461477, tzinfo=<UTC>)}}
+[16/May/2016 17:55:26] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:58:24] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 58, 24, 337030, tzinfo=<UTC>)}}
+[16/May/2016 17:58:24] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:59:02] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 59, 2, 765499, tzinfo=<UTC>)}}
+[16/May/2016 17:59:02] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:59:11] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 59, 11, 828721, tzinfo=<UTC>)}}
+[16/May/2016 17:59:11] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:59:20] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 59, 20, 654689, tzinfo=<UTC>)}}
+[16/May/2016 17:59:20] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}
+[16/May/2016 17:59:31] DEBUG [django.db.backends:70] django_session.find (0.00) {'_id': 'iremu0eddht3odvopghwmvximsyh9jot', 'expire_date': {'$gt': datetime.datetime(2016, 5, 16, 16, 59, 31, 436618, tzinfo=<UTC>)}}
+[16/May/2016 17:59:31] DEBUG [django.db.backends:70] auth_user.find (0.00) {'_id': ObjectId('56e077ac923d590b9d86f899')}

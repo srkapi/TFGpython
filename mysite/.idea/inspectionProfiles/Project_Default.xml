@@ -5,6 +5,8 @@
       <option name="ignoredIdentifiers">
         <list>
           <option value="app.model.user.userModel" />
+          <option value="app.views.forms" />
+          <option value="app.views.UploadFileForm" />
         </list>
       </option>
     </inspection_tool>
