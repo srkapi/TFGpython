@@ -1,9 +1,9 @@
 Create view file 
 	- html (successful)
-	- index.py (warning) 
+	- index.py (successful) 
 	- create dao (successful)
 	- mongo (successful)
-	- save file in directory
+	- save file in directory (successful)
 Create autobahn Arduino tun
 Create api REST arduino .ino
 read api rest from python to ico
