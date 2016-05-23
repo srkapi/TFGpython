@@ -1,25 +1,21 @@
 
 from datetime import datetime
 import os
-
-from django.core.files.base import ContentFile
-
-from mysite import settings
-from DaoMeause import connection
-from model.user import user
-from model.event import event
-from model.file import file as fichero
-from DaoMeause.connection import *
+from app.model.user import user
+from app.model.event import event
+from app.model.measure import measure
+from app.model.file  import file as fichero
+from app.Dao.connection import *
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import *
 from pymongo import MongoClient
-from DaoMeause import daoEvent,userDao
-from DaoMeause import fileDao
+from app.Dao import daoEvent,userDao,measureDao
+from app.Dao import fileDao
 from django.contrib.auth.models import User
-from form import UserForm
-from models import Measure , Users
-from DaoMeause import userDao,connection
+from app.form import UserForm
+from app.models import Measure , Users
+from app.Dao import userDao,connection
 import logging
 logger = logging.getLogger(__name__)
 
@@ -32,7 +28,6 @@ def index(request):
     listUser = dao.getEvent(2)
     context = {'data':  list ,'dataUser':  listUser}
     return render(request, 'event.html', context)
-
 
 
 def login_user(request):
@@ -49,6 +44,10 @@ def login_user(request):
                 return HttpResponseRedirect('/app/')
     return render_to_response('login.html', context_instance=RequestContext(request))
 
+
+
+
+
 def logout_user(request):
     logout(request)
     return render_to_response('login.html', context_instance=RequestContext(request))
@@ -58,16 +57,21 @@ def logout_user(request):
 
 
 def measureAdd(request):
-    sensor=request.GET['sensor']
-    measure=request.GET['measure']
-    if float(measure) < 0:
+    sensor = request.GET['sensor']
+    value = request.GET['measure']
+    type = request.GET['type']
+    #user = request.session['user']
+    if float(value) < 0:
         eventMeausure = event("medida Negativa",1)
         dao = daoEvent.daoEvent()
         dao.saveEvent(eventMeausure)
         return HttpResponse("medida negativa")# Create your views here.
     else:
-        post = Measure.objects.create(sensor=sensor, type=2, value=measure, fecha=datetime.now())
-        post.save()
+        #post = Measure.objects.create(sensor=sensor, type=type, value=value, fecha=datetime.now())
+        measurement = measure(sensor,value,type, user)
+        dao = measureDao.measureDao()
+        dao.saveMeasure(measurement)
+        #post.save()
         return HttpResponse("medida insertada con exist")# Create your views here.
 
 @login_required(login_url='login/')

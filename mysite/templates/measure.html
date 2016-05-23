@@ -1,19 +1,44 @@
 
 {% include "index.html" %}
 
-        <div id="page-wrapper">
-
+    <div id="page-wrapper">
+         <div class="row">
             <div id="chart-container">FusionCharts will render here</div>
 
-            </div>
+        <div class="button">
+             <button  id="opener" type="button" class="btn btn-success btn-circle btn-lg"><i class="fa  glyphicon-plus"></i>
+             </button>
+        </div>
+                <div id="dialog" title="Data Measure ">
+                    <form name="measure" action="" >
+                        {% csrf_token %}
+                        <p>
+                            Init Date:
+                            <button type="button" id="now" value="now"  onclick="setDate()" >Now</button>
+                        <input type="date" id="initDate" name="initDate" hidden="true">
+                        </p>
+                        <p></p>
+                        Description:
+                        <textarea type="text" id="descr" name="descr"></textarea>
+                        <p></p>
+                        <button type="button" value="clear" onclick="clearFrom()">Clear</button>
+                        <button type="submit" value="send">Send</button>
+
+                    </form>
+
+                </div>
+
+
+         </div>
+    </div>
 
          <script type="text/javascript">
         FusionCharts.ready(function () {
             var salesChart = new FusionCharts({
                 type: 'area2d',
                 renderAt: 'chart-container',
-                width: '800',
-                height: '600',
+                width: '600',
+                height: '400',
                 dataFormat: 'json',
                 dataSource: {
                     "chart": {
@@ -61,12 +86,50 @@
             .render();
         });
 
+
+     $(function() {
+        $( "#dialog" ).dialog({
+          autoOpen: false,
+          show: {
+            effect: "blind",
+            duration: 1000
+          },
+          hide: {
+            effect: "explode",
+            duration: 1000
+          }
+        });
+
+        $( "#opener" ).click(function() {
+          $( "#dialog" ).dialog( "open" );
+        });
+      });
+
+    function setDate(){
+        document.getElementById("initDate").hidden = false;
+        document.getElementById("initDate").value = new Date();
+    }
+
+    function clearFrom(){
+         document.getElementById("initDate").value = " ";
+          document.getElementById("descr").value = " ";
+    }
+
     </script>
 
+<style>
+
+    #chart-container{
+        margin-top: 3em;
+        margin-left: 3em;
+    }
+
+    .button{
+        margin-left: 60em;
+        margin-bottom: 4em;
+    }
+
+</style>
 
 
-
-
-</body>
-
-</html>
+{% include "footer.html" %}

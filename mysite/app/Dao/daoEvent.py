@@ -1,5 +1,5 @@
 
-from connection import mongoDB
+from app.Dao.connection import mongoDB
 
 class daoEvent():
 

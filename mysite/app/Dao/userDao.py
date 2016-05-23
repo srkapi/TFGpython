@@ -1,5 +1,5 @@
 
-from connection import mongoDB
+from app.Dao.connection import mongoDB
 
 from django.contrib.auth.models import User
 import json
