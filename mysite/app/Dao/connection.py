@@ -25,6 +25,11 @@ class mongoDB():
         collection = db.app_measure
         return collection
 
+    def analysis(self):
+        db = self.conn['project']
+        collection = db.app_analysisMeasure
+        return collection
+
 
     def event(self):
         db = self.conn['project']

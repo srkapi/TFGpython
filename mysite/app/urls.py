@@ -5,7 +5,7 @@ from app.views import *
 
 urlpatterns = [
     url(r'^$', index, name='index'),
-    url(r'^measureadd/$', measureAdd, name='urlname'),
+    url(r'^measureadd/$', measureAdd, name='addMeasure'),
     url(r'^measure/$', measure, name='measure'),
     url(r'^login/$', login_user , name='login'),
     url(r'^logout/$', logout_user, name='logout'),

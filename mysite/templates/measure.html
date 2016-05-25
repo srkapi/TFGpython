@@ -1,16 +1,23 @@
 
 {% include "index.html" %}
 
-    <div id="page-wrapper">
+    <div id="page-wrapper" >
          <div class="row">
             <div id="chart-container">FusionCharts will render here</div>
 
-        <div class="button">
+             </div>
+        <div class="row">
+              <div class="alert alert-success" id="notification">
+                     obtaining measured
+              </div>
+          <div class="button">
              <button  id="opener" type="button" class="btn btn-success btn-circle btn-lg"><i class="fa  glyphicon-plus"></i>
+             </button>
+             <button hidden="true" id="closed" type="button" class="btn btn-success btn-circle btn-lg" onclick="finalizeMeasured()"><i class="fa  glyphicon-plus"></i>
              </button>
         </div>
                 <div id="dialog" title="Data Measure ">
-                    <form name="measure" action="" >
+                    <form name="measure" id="measure" action="" method="post" onsubmit="preSubmit()">
                         {% csrf_token %}
                         <p>
                             Init Date:
@@ -21,8 +28,9 @@
                         Description:
                         <textarea type="text" id="descr" name="descr"></textarea>
                         <p></p>
+                        <input type="hidden" name="active" id="active">
                         <button type="button" value="clear" onclick="clearFrom()">Clear</button>
-                        <button type="submit" value="send">Send</button>
+                        <button type="button" value="send" id="send" >Send</button>
 
                     </form>
 
@@ -87,7 +95,37 @@
         });
 
 
-     $(function() {
+
+
+    var dateInit;
+    var dateEND;
+    var descrFrom;
+
+    function setDate(){
+        document.getElementById("initDate").value = new Date();
+        document.getElementById("initDate").hidden= false;
+        dateInit = new Date();
+    }
+
+
+
+    function clearFrom(){
+         document.getElementById("initDate").value = " ";
+         document.getElementById("descr").value = " ";
+    }
+
+    function preSubmit(){
+         document.getElementById("active").value = 1;
+    }
+
+    function finalizeMeasured(){
+        document.getElementById("initDate").value = "hooa ";
+        document.getElementById("descr").value = "asda ";
+        document.getElementById("active").value = 0;
+        document.getElementById("measure").submit();
+    }
+
+    $(function() {
         $( "#dialog" ).dialog({
           autoOpen: false,
           show: {
@@ -103,17 +141,14 @@
         $( "#opener" ).click(function() {
           $( "#dialog" ).dialog( "open" );
         });
-      });
 
-    function setDate(){
-        document.getElementById("initDate").hidden = false;
-        document.getElementById("initDate").value = new Date();
-    }
+         $( "#send" ).click(function() {
+            descrFrom = document.getElementById("descr").value
+            $( "#dialog" ).dialog( "close" );
+            $( "#closed" ).hidden = false;
+        });
+  });
 
-    function clearFrom(){
-         document.getElementById("initDate").value = " ";
-          document.getElementById("descr").value = " ";
-    }
 
     </script>
 
@@ -126,7 +161,14 @@
 
     .button{
         margin-left: 60em;
-        margin-bottom: 4em;
+        margin-bottom: 5em;
+
+    }
+
+    #notification{
+        width: 15em;
+        margin-left: 55em;
+        padding-left: 3.5em;
     }
 
 </style>

@@ -3,20 +3,22 @@ from datetime import datetime
 import os
 from app.model.user import user
 from app.model.event import event
-from app.model.measure import measure
 from app.model.file  import file as fichero
+from app.model.analysisMeasure  import analysisMeasure as analytic
 from app.Dao.connection import *
 from django.contrib.auth import authenticate, login, logout
 from django.contrib.auth.decorators import login_required
 from django.shortcuts import *
 from pymongo import MongoClient
-from app.Dao import daoEvent,userDao,measureDao
+from app.Dao import daoEvent,userDao,analysisDao
 from app.Dao import fileDao
 from django.contrib.auth.models import User
 from app.form import UserForm
-from app.models import Measure , Users
 from app.Dao import userDao,connection
 import logging
+from app.models import Measure
+from app.utils import utils
+
 logger = logging.getLogger(__name__)
 
 
@@ -40,6 +42,7 @@ def login_user(request):
         user = authenticate(username=username, password=password)
         if user is not None:
             if user.is_active:
+                utils.user = username
                 login(request, user)
                 return HttpResponseRedirect('/app/')
     return render_to_response('login.html', context_instance=RequestContext(request))
@@ -57,31 +60,36 @@ def logout_user(request):
 
 
 def measureAdd(request):
-    sensor = request.GET['sensor']
-    value = request.GET['measure']
-    type = request.GET['type']
-    #user = request.session['user']
-    if float(value) < 0:
+    sensor=request.GET['sensor']
+    measure=request.GET['measure']
+    if float(measure) < 0:
         eventMeausure = event("medida Negativa",1)
         dao = daoEvent.daoEvent()
         dao.saveEvent(eventMeausure)
         return HttpResponse("medida negativa")# Create your views here.
     else:
-        #post = Measure.objects.create(sensor=sensor, type=type, value=value, fecha=datetime.now())
-        measurement = measure(sensor,value,type, user)
-        dao = measureDao.measureDao()
-        dao.saveMeasure(measurement)
-        #post.save()
+        post = Measure.objects.create(sensor=sensor, type=2, value=measure, fecha=datetime.now())
+        post.save()
         return HttpResponse("medida insertada con exist")# Create your views here.
 
 @login_required(login_url='login/')
 def measure(request):
+    if request.method == 'POST':
+        active = request.POST.get('active')
+        if active == "1":
+            utils.descr = request.POST.get('descr')
+            utils.dateInit = datetime.now()
+        else:
+            utils.dateEnd = datetime.now()
+            interval = analytic (utils.descr, utils.dateInit,utils.dateEnd)
+            dao = analysisDao.analisysDao()
+            dao.saveMeasure(interval)
+
     connec = mongoDB()
     collection = connec.measure()
     data = collection.find()
     length = collection.count()
     context = {'data':  data ,'count': length}
-
     return render(request, 'measure.html',context)
 
 @login_required(login_url='login/')
