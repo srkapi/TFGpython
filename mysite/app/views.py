@@ -75,13 +75,10 @@ def measureAdd(request):
 @login_required(login_url='login/')
 def measure(request):
     if request.method == 'POST':
-        active = request.POST.get('active')
-        if active == "1":
-            utils.descr = request.POST.get('descr')
-            utils.dateInit = datetime.now()
-        else:
-            utils.dateEnd = datetime.now()
-            interval = analytic (utils.descr, utils.dateInit,utils.dateEnd)
+            descr = request.POST.get('descr')
+            dateInit =  request.POST.get('dateInit')
+            dateEnd =  request.POST.get('dateEnd')
+            interval = analytic (descr, dateInit,dateEnd)
             dao = analysisDao.analisysDao()
             dao.saveMeasure(interval)
 

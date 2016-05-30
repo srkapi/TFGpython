@@ -1,44 +1,77 @@
 
 {% include "index.html" %}
 
-    <div id="page-wrapper" >
-         <div class="row">
-            <div id="chart-container">FusionCharts will render here</div>
 
-             </div>
-        <div class="row">
-              <div class="alert alert-success" id="notification">
-                     obtaining measured
-              </div>
-          <div class="button">
-             <button  id="opener" type="button" class="btn btn-success btn-circle btn-lg"><i class="fa  glyphicon-plus"></i>
-             </button>
-             <button hidden="true" id="closed" type="button" class="btn btn-success btn-circle btn-lg" onclick="finalizeMeasured()"><i class="fa  glyphicon-plus"></i>
-             </button>
-        </div>
-                <div id="dialog" title="Data Measure ">
-                    <form name="measure" id="measure" action="" method="post" onsubmit="preSubmit()">
-                        {% csrf_token %}
-                        <p>
-                            Init Date:
-                            <button type="button" id="now" value="now"  onclick="setDate()" >Now</button>
-                        <input type="date" id="initDate" name="initDate" hidden="true">
-                        </p>
-                        <p></p>
-                        Description:
-                        <textarea type="text" id="descr" name="descr"></textarea>
-                        <p></p>
-                        <input type="hidden" name="active" id="active">
-                        <button type="button" value="clear" onclick="clearFrom()">Clear</button>
-                        <button type="button" value="send" id="send" >Send</button>
-
-                    </form>
-
+<div id="page-wrapper" ng-app="myapp">
+ <div class="row" ng-controller="mycontroller">
+                <div class="col-md-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Graphic
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                         <div id="chart-container">FusionCharts will render here</div>
+                        </div>
+                        </div>
                 </div>
 
 
-         </div>
+           <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Alerts
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                obtaining measured.
+                            </div>
+                        </div>
+                    </div>
+           </div>
+            <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Buttons
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div ng-show="button">
+                             <button  id="opener" type="button" class="btn btn-success btn-circle btn-lg" ng-click="openDialog()"><i class="fa  glyphicon-plus"></i>
+                             </button>
+                             </div>
+                             <div ng-hidden="button">
+                             <button hidden="true" id="closed" type="button" class="btn btn-success btn-circle btn-lg" onclick="finalizeMeasured()"><i class="fa  glyphicon-plus"></i>
+                             </button>
+                             </div>
+                        </div>
+                     </div>
+            </div>
+                           <div id="dialog" title="Data Measure ">
+                                        <form name="measure" id="measure" action="" method="post" onsubmit="preSubmit()">
+                                            {% csrf_token %}
+                                            <p>
+                                                Init Date:
+                                                <button type="button" id="now" value="now"  onclick="setDate()" >Now</button>
+                                            <input type="date" id="initDate" name="initDate" hidden="true">
+                                            </p>
+                                            <p></p>
+                                            Description:
+                                            <textarea type="text" id="descr" name="descr"></textarea>
+                                            <p></p>
+                                            <input type="hidden" name="active" id="active">
+                                            <button type="button" value="clear" onclick="clearFrom()">Clear</button>
+                                            <button type="button" value="send" id="send" >Send</button>
+
+                                        </form>
+
+                                    </div>
+
+        </div>
     </div>
+
 
          <script type="text/javascript">
         FusionCharts.ready(function () {
@@ -150,14 +183,36 @@
   });
 
 
+ var app = angular.module("myapp", []);
+    app.controller("mycontroller", function($scope,$http) {
+
+        $scope.openDialog = function(user, nombre, apellido, email) {
+
+            $scope.button=!$scope.button;
+        }
+
+        $scope.deleteUser = function(userName){
+            var name= "'"+userName +"'";
+            $http.get("{% url 'deleteUser' %}", {params:{"user": userName }})
+            .then(function (response) { /* */ });
+
+
+            location.reload();
+
+
+        }
+
+
+
+    });
+
+
+
     </script>
 
 <style>
 
-    #chart-container{
-        margin-top: 3em;
-        margin-left: 3em;
-    }
+
 
     .button{
         margin-left: 60em;
@@ -172,6 +227,7 @@
     }
 
 </style>
+
 
 
 {% include "footer.html" %}
