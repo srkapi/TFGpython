@@ -38,32 +38,34 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                            <div ng-show="button">
+                            <div ng-hide="buttonDialog">
                              <button  id="opener" type="button" class="btn btn-success btn-circle btn-lg" ng-click="openDialog()"><i class="fa  glyphicon-plus"></i>
                              </button>
+
                              </div>
-                             <div ng-hidden="button">
-                             <button hidden="true" id="closed" type="button" class="btn btn-success btn-circle btn-lg" onclick="finalizeMeasured()"><i class="fa  glyphicon-plus"></i>
-                             </button>
+                             <div ng-show="buttonDialog">
+                                 <button id="closed" type="button" class="btn btn-warning btn-circle btn-lg" ng-click="finalizeMeasured()"><i class="fa fa-times"></i>
+                                 </button>
+
                              </div>
                         </div>
                      </div>
             </div>
-                           <div id="dialog" title="Data Measure ">
-                                        <form name="measure" id="measure" action="" method="post" onsubmit="preSubmit()">
+                           <div id="dialog" title="Data Measure" >
+                                        <form name="measure" id="measure" action="" method="post" >
                                             {% csrf_token %}
                                             <p>
                                                 Init Date:
-                                                <button type="button" id="now" value="now"  onclick="setDate()" >Now</button>
-                                            <input type="date" id="initDate" name="initDate" hidden="true">
+                                                <button type="button" id="now" value="now"  ng-click="setDate()" >Now</button>
+                                            <input type="date" id="initDate" name="initDate" hidden="true" ng-model="dateInit">
                                             </p>
                                             <p></p>
                                             Description:
-                                            <textarea type="text" id="descr" name="descr"></textarea>
+                                            <textarea type="text" id="descr" name="descr" ng-model="desc"></textarea>
                                             <p></p>
-                                            <input type="hidden" name="active" id="active">
+                                            <input type="hidden" name="dateEnd" id="dateEnd" ng-model="dateEnd">
                                             <button type="button" value="clear" onclick="clearFrom()">Clear</button>
-                                            <button type="button" value="send" id="send" >Send</button>
+                                            <button type="button" value="send" id="send" ng-click="preSubmit()">Send</button>
 
                                         </form>
 
@@ -71,6 +73,7 @@
 
         </div>
     </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
 
 
          <script type="text/javascript">
@@ -130,15 +133,9 @@
 
 
 
-    var dateInit;
-    var dateEND;
-    var descrFrom;
 
-    function setDate(){
-        document.getElementById("initDate").value = new Date();
-        document.getElementById("initDate").hidden= false;
-        dateInit = new Date();
-    }
+
+
 
 
 
@@ -147,16 +144,9 @@
          document.getElementById("descr").value = " ";
     }
 
-    function preSubmit(){
-         document.getElementById("active").value = 1;
-    }
 
-    function finalizeMeasured(){
-        document.getElementById("initDate").value = "hooa ";
-        document.getElementById("descr").value = "asda ";
-        document.getElementById("active").value = 0;
-        document.getElementById("measure").submit();
-    }
+
+
 
     $(function() {
         $( "#dialog" ).dialog({
@@ -178,7 +168,7 @@
          $( "#send" ).click(function() {
             descrFrom = document.getElementById("descr").value
             $( "#dialog" ).dialog( "close" );
-            $( "#closed" ).hidden = false;
+
         });
   });
 
@@ -186,25 +176,25 @@
  var app = angular.module("myapp", []);
     app.controller("mycontroller", function($scope,$http) {
 
-        $scope.openDialog = function(user, nombre, apellido, email) {
-
-            $scope.button=!$scope.button;
+        $scope.setDate=function(){
+            document.getElementById("initDate").value = new Date();
+            document.getElementById("initDate").hidden= false;
         }
 
-        $scope.deleteUser = function(userName){
-            var name= "'"+userName +"'";
-            $http.get("{% url 'deleteUser' %}", {params:{"user": userName }})
-            .then(function (response) { /* */ });
 
+        $scope.preSubmit = function(){
+                $scope.buttonDialog =!$scope.buttonDialog;
+        }
 
-            location.reload();
-
-
+        $scope.finalizeMeasured= function (){
+            document.getElementById("dateEnd").value = new Date();
+            document.getElementById("measure").submit();
         }
 
 
 
     });
+
 
 
 
