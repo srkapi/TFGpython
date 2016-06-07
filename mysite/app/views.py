@@ -76,7 +76,7 @@ def measureAdd(request):
 def measure(request):
     if request.method == 'POST':
             descr = request.POST.get('descr')
-            dateInit =  request.POST.get('dateInit')
+            dateInit =  request.POST.get('initDate')
             dateEnd =  request.POST.get('dateEnd')
             interval = analytic (descr, dateInit,dateEnd)
             dao = analysisDao.analisysDao()
