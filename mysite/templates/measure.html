@@ -4,7 +4,7 @@
 
 <div id="page-wrapper" ng-app="myapp">
  <div class="row" ng-controller="mycontroller">
-                <div class="col-md-8" >
+                <div class="col-md-8">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             Graphic
@@ -17,7 +17,20 @@
                 </div>
 
 
-
+           <div class="col-lg-4">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Alerts
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                            <div class="alert alert-success alert-dismissable">
+                                <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+                                obtaining measured.
+                            </div>
+                        </div>
+                    </div>
+           </div>
             <div class="col-lg-4">
                     <div class="panel panel-default">
                         <div class="panel-heading">
@@ -36,22 +49,7 @@
 
                              </div>
                         </div>
-                    </div>
-
-           </div>
-            <div class="col-lg-4" ng-show="buttonDialog">
-                        <div class="panel panel-default">
-                            <div class="panel-heading">
-                                Alerts
-                            </div>
-                            <!-- /.panel-heading -->
-                            <div class="panel-body">
-                                <div class="alert alert-success alert-dismissable">
-                                    <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-                                    obtaining measured.
-                                </div>
-                            </div>
-                        </div>
+                     </div>
             </div>
                            <div id="dialog" title="Data Measure" >
                                         <form name="measure" id="measure" action="" method="post" >
@@ -66,7 +64,7 @@
                                             <textarea type="text" id="descr" name="descr" ng-model="desc"></textarea>
                                             <p></p>
                                             <input type="hidden" name="dateEnd" id="dateEnd" ng-model="dateEnd">
-                                            <button type="button" value="clear" ng-click="clearFrom()">Clear</button>
+                                            <button type="button" value="clear" onclick="clearFrom()">Clear</button>
                                             <button type="button" value="send" id="send" ng-click="preSubmit()">Send</button>
 
                                         </form>
@@ -141,6 +139,10 @@
 
 
 
+    function clearFrom(){
+         document.getElementById("initDate").value = " ";
+         document.getElementById("descr").value = " ";
+    }
 
 
 
@@ -177,7 +179,6 @@
         $scope.setDate=function(){
             document.getElementById("initDate").value = new Date();
             document.getElementById("initDate").hidden= false;
-
         }
 
 
@@ -187,16 +188,8 @@
 
         $scope.finalizeMeasured= function (){
             document.getElementById("dateEnd").value = new Date();
-            alert( document.getElementById("initDate").value);
-            alert( document.getElementById("dateEnd").value);
             document.getElementById("measure").submit();
         }
-
-        $scope.clearFrom=function (){
-            document.getElementById("initDate").value = " ";
-            document.getElementById("descr").value = " ";
-        }
-
 
 
 
