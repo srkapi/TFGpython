@@ -1,7 +1,7 @@
 from app.Dao.connection import mongoDB
 
 
-class MeasureDao():
+class MeasureDao:
     conn = object
 
     def __init__(self):

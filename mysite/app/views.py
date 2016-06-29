@@ -7,9 +7,10 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.models import User
 from django.shortcuts import *
 
-from app.Dao import daoEvent, analysisDao, MeasureDao
+from app.Dao import daoEvent, analysisDao
 from app.Dao import fileDao
 from app.Dao import userDao
+from app.Dao.MeasureDao import MeasureDao
 from app.Dao.connection import *
 from app.form import UserForm
 from app.model.analysisMeasure import analysisMeasure as analytic
@@ -64,6 +65,7 @@ def measureAdd(request):
         data = measureData(measure, level, volume, datetime.now())
         dao = MeasureDao()
         dao.saveData(data)
+    HttpResponse("todo ok")
 
 
 @login_required(login_url='login/')

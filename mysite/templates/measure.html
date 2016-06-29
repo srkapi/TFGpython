@@ -3,6 +3,60 @@
 
 
 <div id="page-wrapper" ng-app="myapp">
+
+            <!-- /.row -->
+            <div class="row" ng-controller="dataController">
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-primary">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-comments fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" ng-model="volume"></div>
+                                    <div>Volume</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-green">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-tasks fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" ng-model="level"></div>
+                                    <div>Pressure</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="panel panel-yellow">
+                        <div class="panel-heading">
+                            <div class="row">
+                                <div class="col-xs-3">
+                                    <i class="fa fa-shopping-cart fa-5x"></i>
+                                </div>
+                                <div class="col-xs-9 text-right">
+                                    <div class="huge" ng-model="measure"></div>
+                                    <div>Level</div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                </div>
+
  <div class="row" ng-controller="mycontroller">
                 <div class="col-md-8">
                     <div class="panel panel-default">
@@ -73,10 +127,11 @@
 
         </div>
     </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<!--<script src="https://cdn.firebase.com/v0/firebase.js"></script>
+<script src="https://cdn.firebase.com/libs/angularfire/0.5.0/angularfire.min.js"></script>-->
 
-
-         <script type="text/javascript">
+<script type="text/javascript">
         FusionCharts.ready(function () {
             var salesChart = new FusionCharts({
                 type: 'area2d',
@@ -115,8 +170,8 @@
                     "data": [
                              {%  for measure in data %}
                                  {
-                                   "label":  "{{ measure.fecha }}" ,
-                                   "value": "{{ measure.value }}"
+                                   "label":  "{{ measure.date }}" ,
+                                   "value": "{{ measure.measure }}"
 
                           },
                             {% endfor %}
@@ -195,10 +250,19 @@
 
     });
 
+    app.controller("dataController" ,function($scope,$http) {
+        $scope.firebaseRef = new Firebase("https://tfgsrkapi.firebaseio.com/tfgsrkapi/datos/-KLSVTeRzs2lreouvMPE/datos/level" );
+
+        $scope.level = $firebase($scope.firebaseRef);
+
+
+    });
 
 
 
-    </script>
+</script>
+
+
 
 <style>
 
@@ -219,5 +283,3 @@
 </style>
 
 
-
-{% include "footer.html" %}
