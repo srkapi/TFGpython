@@ -11,7 +11,7 @@
 
                                 <div class="col-xs-9 text-right">
                                     <div>Volume:</div>
-                                     <div class="huge" ng-model="volume"></div>
+                                     <div class="huge" id="volume"></div>
                                 </div>
                             </div>
                         </div>
@@ -23,8 +23,9 @@
                         <div class="panel-heading">
                             <div class="row">
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge" ng-model="level"></div>
-                                    <div>Pressure</div>
+                                    <div>Pressure : </div>
+                                    <div class="huge"  id="level"></div>
+
                                 </div>
                             </div>
                         </div>
@@ -37,8 +38,9 @@
                             <div class="row">
 
                                 <div class="col-xs-9 text-right">
-                                    <div class="huge" ng-model="measure"></div>
-                                    <div>Level</div>
+                                     <div>Level :</div>
+                                    <div class="huge" id="measure"></div>
+
                                 </div>
                             </div>
                         </div>
@@ -98,7 +100,7 @@
                         </div>
             </div>
                            <div id="dialog" title="Data Measure" >
-                                        <form name="measure" id="measure" action="" method="post" >
+                                        <form name="measure" id="measureForm" action="" method="post" >
                                             {% csrf_token %}
                                             <p>
                                                 Init Date:
@@ -119,7 +121,8 @@
 
         </div>
     </div>
-  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+<script src="https://cdn.firebase.com/js/client/2.4.2/firebase.js"></script>
 
 
          <script type="text/javascript">
@@ -177,19 +180,6 @@
         });
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     $(function() {
         $( "#dialog" ).dialog({
           autoOpen: false,
@@ -218,6 +208,21 @@
  var app = angular.module("myapp", []);
     app.controller("mycontroller", function($scope,$http) {
 
+        var myFirebaseRef = new Firebase("https://tfgsrkapi.firebaseio.com/");
+
+        myFirebaseRef.child("tfgsrkapi/datos/-KLSVTeRzs2lreouvMPE/datos/level").on("value", function(snapshot) {
+            $( "#level" ).text(snapshot.val());
+        });
+
+        myFirebaseRef.child("tfgsrkapi/datos/-KLSVTeRzs2lreouvMPE/datos/measure").on("value", function(snapshot) {
+            $( "#measure" ).text(snapshot.val());
+        });
+
+        myFirebaseRef.child("tfgsrkapi/datos/-KLSVTeRzs2lreouvMPE/datos/volume").on("value", function(snapshot) {
+            $( "#volume" ).text(snapshot.val());
+        });
+
+
         $scope.setDate=function(){
             document.getElementById("initDate").value = new Date();
             document.getElementById("initDate").hidden= false;
@@ -233,7 +238,7 @@
             document.getElementById("dateEnd").value = new Date();
             alert( document.getElementById("initDate").value);
             alert( document.getElementById("dateEnd").value);
-            document.getElementById("measure").submit();
+            document.getElementById("measureForm").submit();
         }
 
         $scope.clearFrom=function (){
