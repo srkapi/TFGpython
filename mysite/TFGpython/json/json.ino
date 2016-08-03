@@ -1,7 +1,7 @@
 /*
   Arduino Yún Bridge example
 
-  This example for the Yún101/YunShield/Yún shows how 
+  This example for the Yún101/YunShield/Yún shows how
   to use the Bridge library to access the digital and
   analog pins on the board through REST calls.
   It demonstrates how you can create your own API when
@@ -26,16 +26,30 @@
 #include <BridgeServer.h>
 #include <BridgeClient.h>
 #include <Process.h>
-
 // Listen to the default port 5555, the Yún webserver
 // will forward there all the HTTP requests you send
 BridgeServer server;
 
 
+volatile int NbTopsFan;
+int Calc;
+int hallsensor = 2;
+int AnalogPin = 0;
+
+
 
 void setup() {
-  
-  Bridge.begin();
+  pinMode(hallsensor, INPUT);
+  pinMode(AnalogPin, INPUT);
+  Serial.begin(9600);
+  delay(4000);
+  while(!Serial);
+
+  Serial.print("Initializing the bridge...");
+
+  Serial.println("Done");
+  attachInterrupt(digitalPinToInterrupt(2), rpm, RISING);
+
 
   // Listen for incoming connection only from localhost
   // (no one from the external network could connect)
@@ -44,17 +58,19 @@ void setup() {
 }
 
 void loop() {
+  //volumenSensor();
+  preasureSensor();
   // Get clients coming from server
-  BridgeClient client = server.accept();
+  //BridgeClient client = server.accept();
 
   // There is a new client?
-  if (client) {
-    // Process request
-    process(client);
+  // if (client) {
+  // Process request
+  //process(client);
 
-    // Close connection and free resources.
-    client.stop();
-  }
+  // Close connection and free resources.
+  // client.stop();
+  //}
 
   delay(50); // Poll every 50ms
 }
@@ -71,13 +87,13 @@ void process(BridgeClient client) {
 }
 
 void loadData(BridgeClient client) {
-   float measure = random(10, 20);
+  float measure = random(10, 20);
   float level = random(10, 20);
-  float volume = random(10, 20);
+  float volume = volumenSensor();
   Process p;
 
-  //p.runShellCommand("curl -k -X PUT https://tfgsrkapi.firebaseapp.com/data -d ' { \"measure:"  +String(measure)+", level:"+ String(level) + ", volume:"+String(volume)+"}'");  
-  //while(p.running()); 
+  //p.runShellCommand("curl -k -X PUT https://tfgsrkapi.firebaseapp.com/data -d ' { \"measure:"  +String(measure)+", level:"+ String(level) + ", volume:"+String(volume)+"}'");
+  //while(p.running());
 
 
   // Send feedback to client
@@ -91,6 +107,26 @@ void loadData(BridgeClient client) {
   client.print(volume);
   client.print(F("}"));
 
+}
+
+float volumenSensor() {
+  NbTopsFan = 0;
+  sei();
+  delay (1000);
+  cli();
+  Calc = (NbTopsFan * 60 / 5);
+  Serial.print (Calc *10, DEC);
+  Serial.print (" Litros/hor\r\n");
+}
+
+void preasureSensor(){
+  int ResRead = analogRead(AnalogPin); // La Resistencia es igual a la lectura del sensor (Analog 0)
+  Serial.print("Lectura Analogica = ");
+  Serial.println(ResRead);
+}
+
+void rpm (){
+  NbTopsFan++;
 }
 
 
