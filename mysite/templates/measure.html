@@ -57,10 +57,11 @@
                         </div>
                         <!-- /.panel-heading -->
                         <div class="panel-body">
-                         <div id="chart-container">FusionCharts will render here</div>
+                         <div id="chart-container">Volume</div>
                         </div>
                         </div>
                 </div>
+
 
 
 
@@ -99,6 +100,17 @@
                             </div>
                         </div>
             </div>
+      <div class="col-md-8" >
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            Graphic
+                        </div>
+                        <!-- /.panel-heading -->
+                        <div class="panel-body">
+                         <div id="chart-pressure">Pressure</div>
+                        </div>
+                        </div>
+                </div>
                            <div id="dialog" title="Data Measure" >
                                         <form name="measure" id="measureForm" action="" method="post" >
                                             {% csrf_token %}
@@ -135,7 +147,7 @@
                 dataFormat: 'json',
                 dataSource: {
                     "chart": {
-                        "caption": "Measure for arduino",
+                        "caption": "Volume for arduino",
                         "xAxisName": "Fecha",
                         "yAxisName": "Measure",
                         "paletteColors": "#0075c2",
@@ -165,7 +177,7 @@
                              {%  for measure in data %}
                                  {
                                    "label":  "{{ measure.date }}" ,
-                                   "value": "{{ measure.measure }}"
+                                   "value": "{{ measure.volume }}"
 
                           },
                             {% endfor %}
@@ -178,6 +190,60 @@
             })
             .render();
         });
+
+        FusionCharts.ready(function () {
+            var salesChart = new FusionCharts({
+                type: 'area2d',
+                renderAt: 'chart-pressure',
+                width: '600',
+                height: '400',
+                dataFormat: 'json',
+                dataSource: {
+                    "chart": {
+                        "caption": "Pressure for arduino",
+                        "xAxisName": "Fecha",
+                        "yAxisName": "Pressure",
+                        "paletteColors": "#0075c2",
+                        "bgColor": "#ffffff",
+                        "showBorder": "0",
+                        "showCanvasBorder": "0",
+                        "plotBorderAlpha": "10",
+                        "usePlotGradientColor": "0",
+                        "plotFillAlpha": "50",
+                        "showXAxisLine": "1",
+                        "axisLineAlpha": "25",
+                        "divLineAlpha": "10",
+                        "showValues": "1",
+                        "showAlternateHGridColor": "0",
+                        "captionFontSize": "14",
+                        "subcaptionFontSize": "14",
+                        "subcaptionFontBold": "0",
+                        "toolTipColor": "#ffffff",
+                        "toolTipBorderThickness": "0",
+                        "toolTipBgColor": "#000000",
+                        "toolTipBgAlpha": "80",
+                        "toolTipBorderRadius": "2",
+                        "toolTipPadding": "5"
+                    },
+
+                    "data": [
+                             {%  for measure in data %}
+                                 {
+                                   "label":  "{{ measure.date }}" ,
+                                   "value": "{{ measure.pressure }}"
+
+                          },
+                            {% endfor %}
+                            {
+                            "label": "Mon",
+                            "label": "4123"
+                        }
+                    ]
+                }
+            })
+            .render();
+        });
+
 
 
     $(function() {

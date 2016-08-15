@@ -54,7 +54,7 @@ def logout_user(request):
 
 
 def measureAdd(request):
-    measure = request.GET['measure']
+    pressure = request.GET['pressure']
     level = request.GET['level']
     volume = request.GET['volume']
     if float(measure) < 0:
@@ -62,7 +62,7 @@ def measureAdd(request):
         dao = daoEvent.daoEvent()
         dao.saveEvent(eventMeausure)
     else:
-        data = measureData(measure, level, volume, datetime.now())
+        data = measureData(pressure, level, volume, datetime.now())
         dao = MeasureDao()
         dao.saveData(data)
     HttpResponse("todo ok")
