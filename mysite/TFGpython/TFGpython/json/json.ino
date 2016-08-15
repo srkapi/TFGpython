@@ -35,7 +35,7 @@ volatile int NbTopsFan;
 int Calc;
 int hallsensor = 2;
 int AnalogPin = 0;
-
+const float SensorOffset = 102.0;
 
 
 void setup() {
@@ -46,10 +46,10 @@ void setup() {
   while(!Serial);
 
   Serial.print("Initializing the bridge...");
-
+  
   Serial.println("Done");
   attachInterrupt(digitalPinToInterrupt(2), rpm, RISING);
-
+ 
 
   // Listen for incoming connection only from localhost
   // (no one from the external network could connect)
@@ -87,18 +87,15 @@ void process(BridgeClient client) {
 }
 
 void loadData(BridgeClient client) {
-  float measure = random(10, 20);
+  float pressure = random(10, 20);
   float level = random(10, 20);
   float volume = volumenSensor();
-  Process p;
 
-  //p.runShellCommand("curl -k -X PUT https://tfgsrkapi.firebaseapp.com/data -d ' { \"measure:"  +String(measure)+", level:"+ String(level) + ", volume:"+String(volume)+"}'");
-  //while(p.running());
 
 
   // Send feedback to client
-  client.print(F("{ \"measure\": "));
-  client.print(measure);
+  client.print(F("{ \"pressure\": "));
+  client.print(pressure);
   client.print(F(","));
   client.print(F(" \"level\": "));
   client.print(level);
@@ -107,6 +104,15 @@ void loadData(BridgeClient client) {
   client.print(volume);
   client.print(F("}"));
 
+}
+
+
+void pressureSensor(){
+  float sensorValue = (analogRead(A0)-SensorOffset)/100.0; 
+  // print out the value you read:
+  Serial.print("Air Pressure: ");  
+  Serial.print(sensorValue,2);
+  Serial.println(" kPa");  
 }
 
 float volumenSensor() {
@@ -119,14 +125,10 @@ float volumenSensor() {
   Serial.print (" Litros/hor\r\n");
 }
 
-void preasureSensor(){
-  int ResRead = analogRead(AnalogPin); // La Resistencia es igual a la lectura del sensor (Analog 0)
-  Serial.print("Lectura Analogica = ");
-  Serial.println(ResRead);
-}
 
 void rpm (){
   NbTopsFan++;
 }
+
 
 
