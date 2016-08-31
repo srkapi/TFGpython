@@ -54,15 +54,15 @@ def logout_user(request):
 
 
 def measureAdd(request):
-    pressure = request.GET['pressure']
+    preassure = request.GET['preassure']
     level = request.GET['level']
     volume = request.GET['volume']
-    if float(measure) < 0:
+    if float(preassure) < 0:
         eventMeausure = event("medida Negativa", 1)
         dao = daoEvent.daoEvent()
         dao.saveEvent(eventMeausure)
     else:
-        data = measureData(pressure, level, volume, datetime.now())
+        data = measureData(preassure, level, volume, datetime.now())
         dao = MeasureDao()
         dao.saveData(data)
     HttpResponse("todo ok")
@@ -80,9 +80,12 @@ def measure(request):
 
     connec = mongoDB()
     collection = connec.measure()
-    data = collection.find()
+    volume = collection.find()
     length = collection.count()
-    context = {'data': data, 'count': length}
+    preassure = collection.find()
+    length2 = collection.count()
+    context = {'data': volume, 'count': length
+            ,'dataP': preassure, 'countP': length2}
     return render(request, 'measure.html', context)
 
 

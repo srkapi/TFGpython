@@ -227,10 +227,10 @@
                     },
 
                     "data": [
-                             {%  for measure in data %}
+                             {%  for measure in dataP %}
                                  {
                                    "label":  "{{ measure.date }}" ,
-                                   "value": "{{ measure.pressure }}"
+                                   "value": "{{ measure.preassure }}"
 
                           },
                             {% endfor %}
