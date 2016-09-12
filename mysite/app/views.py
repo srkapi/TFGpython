@@ -57,7 +57,7 @@ def measureAdd(request):
     preassure = request.GET['preassure']
     level = request.GET['level']
     volume = request.GET['volume']
-    if float(preassure) < 0:
+    if float(volume) < 0:
         eventMeausure = event("medida Negativa", 1)
         dao = daoEvent.daoEvent()
         dao.saveEvent(eventMeausure)

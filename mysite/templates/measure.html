@@ -9,9 +9,9 @@
                         <div class="panel-heading">
                             <div class="row">
 
-                                <div class="col-xs-9 text-right">
-                                    <div>Volume:</div>
-                                     <div class="huge" id="volume"></div>
+                                <div class="col-xs-12 text-left">
+                                    <div>Volume</div>
+                                     <div  id="volume"></div>
                                 </div>
                             </div>
                         </div>
@@ -22,9 +22,9 @@
                     <div class="panel panel-green">
                         <div class="panel-heading">
                             <div class="row">
-                                <div class="col-xs-9 text-right">
-                                    <div>Pressure : </div>
-                                    <div class="huge"  id="level"></div>
+                                <div class="col-xs-12 text-left">
+                                    <div>Level  </div>
+                                    <div   id="level"></div>
 
                                 </div>
                             </div>
@@ -37,9 +37,9 @@
                         <div class="panel-heading">
                             <div class="row">
 
-                                <div class="col-xs-9 text-right">
-                                     <div>Level :</div>
-                                    <div class="huge" id="measure"></div>
+                                <div class="col-xs-12 text-left">
+                                     <div>Preassure </div>
+                                    <div  id="preassure"></div>
 
                                 </div>
                             </div>
@@ -280,8 +280,8 @@
             $( "#level" ).text(snapshot.val());
         });
 
-        myFirebaseRef.child("tfgsrkapi/datos/-KLSVTeRzs2lreouvMPE/datos/measure").on("value", function(snapshot) {
-            $( "#measure" ).text(snapshot.val());
+        myFirebaseRef.child("tfgsrkapi/datos/-KLSVTeRzs2lreouvMPE/datos/preassure").on("value", function(snapshot) {
+            $( "#preassure" ).text(snapshot.val());
         });
 
         myFirebaseRef.child("tfgsrkapi/datos/-KLSVTeRzs2lreouvMPE/datos/volume").on("value", function(snapshot) {
